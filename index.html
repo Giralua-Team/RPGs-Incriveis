@@ -1,309 +1,970 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <title>Exolith, O Reino Destruído</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="app.css">
-    <link rel="icon" type="image/png" href="images/exoicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <script src="/js/app.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script src="https://www.youtube.com/iframe_api"></script>
-  </head>
 
-  <body>
+<head>
+  <title>Exolith, O Reino Destruído</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="app.css">
+  <link rel="icon" type="image/png" href="images/exoicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  <script src="/js/app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://www.youtube.com/iframe_api"></script>
+</head>
 
-    <header>
-      <div class="container">
-        <div id="titulo">
-          <a href="index.html">
-            <h1>Exolith, O Reino Destruído</h1>
-          </a>
-        </div>
-        <div id="cabecalho">
-          <h3 style="display: inline-block; color: #666666;">Escrito por Nix</h3>
-          <h3 style="float: right; color: #666666;">v0.1</h3>
-          <ul>
-            <li><a href="https://www.discord.com/users/559016690437062672" target="_blank">Discord: nictofobia_</a></li>
-            <li><a href="https://www.instagram.com/ap0theosis._/" target="_blank">Instagram: @ap0theosis._</a></li>
-          </ul>
-          <h3>Considerações especiais: Diogo e Yuri</h3>
-        </div>
-     </div>
-    </header>
+<body>
 
-    <section id="main">
-      <div class="container">
-        <p style="text-indent: 0px;">Em um reino separado da realidade atual, onde todos os seus sonhos e pesadelos podem ser reais, habita Gama, uma cidadela academia colossal liderada por  Chiansyr Myamsar.</p>
-        <p style="margin-top:10px; text-indent: 0px">O Reino enfrenta constantes ataques de todas as direções de diversos inimigos, sejam eles Vampiros, Shivers, Fobias, ou qualquer mal desconhecido.</p>
-
-        <p class="quote" style="text-indent: 0px;">"Na paz de nossos sonhos, encontro a força para moldar um reino livre de temores. Sob minha liderança, uniremos nossos pesadelos e anseios, erguendo uma cidadela de poder e esperança. Aqueles que me seguirem conhecerão o poder da unidade e da transformação. Pois em nossas mãos, sonhos e pesadelos convergem, forjando um destino que somente eu posso conduzir. Juntos, alcançaremos a grandeza e enfrentaremos a escuridão que ameaça nos cercar. Acreditem em mim, e juntos conquistaremos os confins dos reinos oníricos." - Chiansyr
-        </p>
-
-        <p style="text-align:left; text-indent: 0px;">Você é convocado para participar da academia Gama, seja para combater, auxiliar ou proteger, é sua missão descobrir a essência de seu Mantra, aprenderá a emanar, controlar e moldar tal energia. Sua devoção e desejo é essencial para sua jornada de autodescobrimento. </p>
+  <header>
+    <div class="container">
+      <div id="titulo">
+        <a href="index.html">
+          <h1>Exolith, O Reino Destruído</h1>
+        </a>
       </div>
-    </section>
-
-    <section id="introducao">
-      <div class="container">
-        <h1>Introdução:</h1>
-
-        <p>Vos apresento meu humilde sistema de RPG, não tenho experiências concretas e regulamentadas para criar algo tão grandioso e detalhado quanto muitos rpgs famosos e de fácil acesso. Mesmo assim tive a ideia de criar o meu para facilitar o entendimento de quem nunca participou de um jogo assim, seja como mestre ou jogador. Muitas das regras que estarão neste manual, são baseadas em minhas experiências com outros jogos bastante conhecidos, como D&D. A ideia base é adaptar minha principal história fictícia “Incrilith” em algo customizável para quem se interesse no universo, adicionando elementos narrativos, sistemas simples de combate e magia. Contudo, estou amplamente aberto a críticas e ideias.</p>
+      <div id="cabecalho">
+        <h3 style="display: inline-block; color: #666666;">Escrito por Nix</h3>
+        <h3 style="float: right; color: #666666;">v0.1</h3>
+        <ul>
+          <li><a href="https://www.discord.com/users/559016690437062672" target="_blank">Discord: nictofobia_</a></li>
+          <li><a href="https://www.instagram.com/ap0theosis._/" target="_blank">Instagram: @ap0theosis._</a></li>
+        </ul>
+        <h3>Considerações especiais: Diogo e Yuri</h3>
       </div>
-    </section>
-    
-    <section id="capitulos"> <!-- INÍCIO CAPÍTULOS -->
-      <div class="container">
-        <h1>Capítulo 1: Regras Gerais</h1>
+    </div>
+  </header>
 
-        <h2>Como jogar?</h2>
-        
-        <p>É a parte mais fácil deste manual e a base para qualquer RPG. Sempre haverá um mestre (um contador de histórias, uma pessoa com amplo conhecimento das regras, com responsabilidade para guiar os jogadores e descrever o universo do jogo, capaz de ser flexível e adaptar a narrativa de acordo com os personagens) e os jogadores (pessoas nas quais interpretam seus personagens e narram suas ações perante o que é descrito ao seu redor e movem a história para frente). Sendo assim:
-        </p>
+  <section id="main">
+    <div class="container">
+      <p style="text-indent: 0px;">Em um reino separado da realidade atual, onde todos os seus sonhos e pesadelos podem
+        ser reais, habita Gama, uma cidadela academia colossal liderada por Chiansyr Myamsar.</p>
+      <p style="margin-top:10px; text-indent: 0px">O Reino enfrenta constantes ataques de todas as direções de diversos
+        inimigos, sejam eles Vampiros, Shivers, Fobias, ou qualquer mal desconhecido.</p>
 
-        <ol>
-          <li><p> <span style="font-weight: bold;">O mestre descreve o ambiente:</span> <span style="color:#999999">“Vocês adentram em uma caverna escura, há algumas tochas apagadas no chão, que podem ser úteis para serem reutilizadas. Logo a frente na escuridão há diversos brilhos vermelhos menores no teto, o que você faz Yuri?”</span></p></li>
+      <p class="quote" style="text-indent: 0px;">"Na paz de nossos sonhos, encontro a força para moldar um reino livre
+        de temores. Sob minha liderança, uniremos nossos pesadelos e anseios, erguendo uma cidadela de poder e
+        esperança. Aqueles que me seguirem conhecerão o poder da unidade e da transformação. Pois em nossas mãos, sonhos
+        e pesadelos convergem, forjando um destino que somente eu posso conduzir. Juntos, alcançaremos a grandeza e
+        enfrentaremos a escuridão que ameaça nos cercar. Acreditem em mim, e juntos conquistaremos os confins dos reinos
+        oníricos." - Chiansyr
+      </p>
 
-          <li><p> <span style="font-weight: bold;">Os jogadores descrevem o que seu personagem quer fazer:</span><span style="color:#999999"> “Eu agarro uma tocha, e jogo ela ao teto tentando acertar esses pontos vermelhos”</span></p></li>
+      <p style="text-align:left; text-indent: 0px;">Você é convocado para participar da academia Gama, seja para
+        combater, auxiliar ou proteger, é sua missão descobrir a essência de seu Mantra, aprenderá a emanar, controlar e
+        moldar tal energia. Sua devoção e desejo é essencial para sua jornada de autodescobrimento. </p>
+    </div>
+  </section>
 
-          <li><p> <span style="font-weight: bold;">O mestre narra a consequência dessas ações e voltamos ao segundo passo:</span><span style="color:#999999"> “Ao lançar a tocha apagada e atingir o teto, você ouve um baque e então um bando de morcegos começam a voar e soltar chiados ensurdecedores.”</span></p></li>
-        </ol>
+  <section id="introducao">
+    <div class="container">
+      <h1>Introdução:</h1>
 
-        <h2>Os dados de jogo:</h2>
+      <p>Vos apresento meu humilde sistema de RPG, não tenho experiências concretas e regulamentadas para criar algo tão
+        grandioso e detalhado quanto muitos rpgs famosos e de fácil acesso. Mesmo assim tive a ideia de criar o meu para
+        facilitar o entendimento de quem nunca participou de um jogo assim, seja como mestre ou jogador. Muitas das
+        regras que estarão neste manual, são baseadas em minhas experiências com outros jogos bastante conhecidos, como
+        D&D. A ideia base é adaptar minha principal história fictícia “Incrilith” em algo customizável para quem se
+        interesse no universo, adicionando elementos narrativos, sistemas simples de combate e magia. Contudo, estou
+        amplamente aberto a críticas e ideias.</p>
+    </div>
+  </section>
 
-        <p>Ao realizar ações decisivas que podem impactar no futuro da história, normalmente usaremos o d20, onde o mestre decide uma dificuldade e o jogador precisa superá-la:</p>
+  <section id="capitulos"> <!-- INÍCIO CAPÍTULOS -->
+    <div class="container">
+      <h1>Capítulo 1: Regras Gerais</h1>
 
-        <p><span style="color:#999999">“Os morcegos avançam em sua direção e tentam acertá-lo.”</span> O mestre rola seu d20 e cai em 15, e então o jogador deve tentar superar esse número para não sofrer as consequências. A rolagem de dados de Yuri cai em 14. <span style="color:#999999">“Você tenta esquivar mas falha, a quantidade massiva de morcegos é capaz de te afugentar temporariamente da caverna.”</span></p>
+      <h2>Como jogar?</h2>
 
-        <p>Outros valores podem ser levados em consideração, como <span style="color:#0000ff">modificadores de habilidade</span>, por exemplo, se Yuri for um personagem com alta destreza seria mais difícil dos morcegos o atingirem, podendo assim adicionar 1 ou mais valores no resultado de seu dado. Existem várias formas em como esses modificadores podem afetar as ações dos personagens, isso será abordado com mais detalhes em outro capítulo.</p>
-        <!-- /FIM CAPÍTULO 1-->
-        <h2>Importante:</h2>
-        <p>RPGs são extremamente flexíveis, ao mesmo tempo que podem ser como um jogo baseado em números, <span style="color:#00ff00">pontos de vida</span> e dano, muitos elementos narrativos podem ser usados para conversar ou ultrapassar essa necessidade. Por isso o Mestre precisa saber quando usar um dado, onde uma ação de um jogador pode mudar totalmente o rumo da história.</p>
-        <p>Os jogadores podem explorar o universo narrado de acordo com a sua vontade, como por exemplo explorar, interagir com o ambiente da maneira que preferir, conversar com outros personagens de jogadores ou até mesmo personagens que o mestre interpreta (RPGs são mais divertidos quando os jogadores incorporam seus personagens e passam a agir de acordo com seu temperamento e personalidade), e até mesmo combater contra quem quiserem.</p>
-        <!-- /FIM IMPORTANTE -->
-        <h2 style="margin:0 0 -15px 0">Onde usar as Perícias:</h2> <!-- INÍCIO CAPÍTULO 2-->
-        <p><span style="color:#999999; font-size: 0.75em;">Disponível em breve...</span></p>
+      <p>É a parte mais fácil deste manual e a base para qualquer RPG. Sempre haverá um mestre (um contador de
+        histórias, uma pessoa com amplo conhecimento das regras, com responsabilidade para guiar os jogadores e
+        descrever o universo do jogo, capaz de ser flexível e adaptar a narrativa de acordo com os personagens) e os
+        jogadores (pessoas nas quais interpretam seus personagens e narram suas ações perante o que é descrito ao seu
+        redor e movem a história para frente). Sendo assim:
+      </p>
 
-        <h1>Capítulo 2: Ambientação</h1>
-        <p>Bem-vindo à Incrilith, um reino onde os limites entre sonho e realidade se tornam tênues e os horizontes da imaginação ganham vida. Este é um mundo separado da realidade conhecida, onde os sonhos e pesadelos não apenas habitam as mentes, mas também se manifestam em formas tangíveis. Neste reino, a energia primordial do Mantra flui como uma corrente vital, moldando tudo o que existe.</p>
-        <p>A pequena cidadela de Gama, liderada pelo misterioso Chiansyr Myamsar, é um farol de esperança em meio a um oceano de desafios.</p>
-        <p> As diversas raças que habitam este reino trazem consigo suas histórias, habilidades únicas e desafios pessoais. Os Galvans, com sua habilidade de manipular o Polus, os Vampiros, que buscam redenção enquanto travam uma guerra sangrenta, os Biodúnyas, formas de vida que oscilam entre o orgânico e o mecânico (Crisoldúnya), os Shivers, espíritos atormentados que buscam alívio no caos e os Kýttaros, criaturas misteriosas que alguns tratam como lenda, confundidos facilmente com Galvans.</p>
+      <ol>
+        <li>
+          <p> <span style="font-weight: bold;">O mestre descreve o ambiente:</span> <span style="color:#999999">“Vocês
+              adentram em uma caverna escura, há algumas tochas apagadas no chão, que podem ser úteis para serem
+              reutilizadas. Logo a frente na escuridão há diversos brilhos vermelhos menores no teto, o que você faz
+              Yuri?”</span></p>
+        </li>
 
-        <h1 style="color:#ffff00; font-weight: bold;">O Universo</h1> <!-- INÍCIO UNIVERSO -->
-        <p>O que é Incrilith? Como os sonhos se manifestam? Por que pesadelos existem? Quem é Chiansyr? Cadê os humanos?</p>
-        <p> Então vamos começar, <span style="color:#999999">“Tudo começou em Exolith, onde apenas um plano material existia, nós galvans éramos as únicas criaturas capazes de usar a magia desse mundo, nós sorrimos, festejamos, nos alimentamos… e então nos tornamos a nossa própria ruína… Meu irmão, eras atrás decidiu abrir um receptáculo que continha o mal capaz de combater contra nossas Deusas, isso nos levou a épocas de trevas, mas eu estava lá, eu venci o mal. A Magia foi tão intensa que… rachou o universo em dois, Exolith não estava mais lá, ao invés disso uma Terra fria, sem magia e caótica surgiu, e nós criaturas mágicas pagamos o preço, enquanto metade do universo era “calmo” aqui onde paramos era devastado por criaturas violentas, é como se cada pensamento ruim que um dia tivemos se materializasse para nos punir, e esse pesadelo se tornou sem fim. Terra e Incrilith, Mundo real e Mundo dos sonhos chame do que quiserem… Quando cheguei aqui, estava no ápice de meus poderes, moldei uma sociedade com os galvans restantes e então começamos a nos reerguer, porém além de demônios haviam infinitas criaturas novas.” - Chiansyr</span>
-        </p>
-        <p>Quando o universo nasceu, existiam duas irmãs, Micardya e Lakrima, elas moldavam o universo com paixão, enquanto uma construía a outra era especialista em ruir, uma irmã moldava o Mantra, que originalmente formava 100% do universo.</p>
-        <p>Criaram os galvans, seres parecidos com os humanos de hoje em dia, mas tinham a capacidade de criar assim como sua deusa amada, com sentimentos positivos e alegres criaram o Polus a partir do mantra. Porém nem mesmo esses seres eram perfeitos, seus sentimentos ruins foram direcionados a um receptáculo proibido, onde Lemnis, o próprio caos nasceu.</p>
-        <p> A curiosidade dos galvans levou-os a abrir o receptáculo conhecido como Norogai, o que resultou no adormecimento de Micardya. Logo, todas as criaturas vivas foram transformadas em pedra por um longo período. Lakrima estava perplexa, uma vez que seu poder era o da destruição, mas ela sabia que não seria capaz de destruir seu novo irmão, Lemnis. Porém o mesmo não se importava, ele começou a criar criaturas grotescas e assimétricas apenas por diversão.</p>
-        <p>A <span style="color: #0000ff">irmã</span>, então, teve a ideia de purificar a corrupção entrópica causada por essa nova ameaça, o que levou ao surgimento dos Carmesins. Esses seres se especializaram em manipular essa energia negativa que Lemnis emanava pelo ar. E assim, o conceito de Minus se formou.</p>
-        <br />
-        <p>Uma guerra foi travada, a Arkwar… O Fim de <span style="color:#ff0000">Exolith.</span></p>
-        <p>Todos os carmesins morreram, o tecido da realidade foi rasgado, as <span style="color:#434343">Deusas</span> morreram. Ninguém sabe exatamente o que aconteceu além de Chiansyr que se diz o Salvador.</p>
-        <p>Os humanos o chamam de Zeus, outros de Odin, alguns de Netuno, Horus e até mesmo de Susanoo.</p>
-        <p>Atualmente é o líder da Academia Gama, onde treina toda criatura disposta a lutar pelo seu reino.</p>
-        <!-- FIM UNIVERSO -->
+        <li>
+          <p> <span style="font-weight: bold;">Os jogadores descrevem o que seu personagem quer fazer:</span><span
+              style="color:#999999"> “Eu agarro uma tocha, e jogo ela ao teto tentando acertar esses pontos
+              vermelhos”</span></p>
+        </li>
 
-        <h2 style="color:#ffff00; font-weight: bold;">Mantra</h2> <!-- INÍCIO MANTRA -->
-        <p>É a essência fundamental que permeia todo o universo de Incrilith. Ele é a energia vital que flui por todas as coisas, desde os seres vivos até os elementos naturais e os próprios sentimentos. O Mantra é a fonte da magia neste mundo, e cada criatura possui uma conexão intrínseca com essa energia.</p>
-        <p>Cada ser em Incrilith tem a capacidade de canalizá-lo de maneira única, manifestando-o através de suas ações e intenções. Isso significa que o Mantra não é apenas uma força mística, mas também uma expressão pessoal que reflete os pensamentos, emoções e desejos de cada indivíduo.</p>
-        <p>Dentro deste RPG, o Mantra é a base para as habilidades mágicas e especiais das diferentes raças e Focos. Os personagens podem aprender a manipulá-lo de várias maneiras, seja para lançar feitiços, aprimorar suas habilidades físicas, criar objetos mágicos ou realizar proezas extraordinárias. Cada escolha que um personagem faz, cada ação que ele toma, está intrinsecamente ligada ao seu Mantra.</p>
-        <p>Em resumo, é a energia vital que permeia o mundo de Incrilith e serve como a fonte e o catalisador para todas as formas de magia e poderes especiais no RPG. Ele é a conexão entre os personagens, a natureza e o universo que os cerca.</p>
-        <p>O Mantra pode ser movido para locais em que ele ainda não esteja presente, como por exemplo no mundo material dos humanos, porém apenas com seu controle elevado.</p>
-        <p>Um usuário de mantra precisa dominar o conhecimento sobre seus 4 aspectos:</p>
+        <li>
+          <p> <span style="font-weight: bold;">O mestre narra a consequência dessas ações e voltamos ao segundo
+              passo:</span><span style="color:#999999"> “Ao lançar a tocha apagada e atingir o teto, você ouve um baque
+              e então um bando de morcegos começam a voar e soltar chiados ensurdecedores.”</span></p>
+        </li>
+      </ol>
 
-        <h2>Polus</h2>
-        <p>Uma vertente positiva do mantra, sua origem com o primeiro sonho de um galvan e então em todas as boas ações e sentimentos consequentes, logo essa energia tomou conta de Exolith, se tornando assim a primeira ferramenta dessas criaturas pensantes iniciais. Conforme o tempo passava a técnica foi se refinando, diversificando, ramos de polus surgiram e as possibilidades mágicas tornaram-se infinitas, o único limite é a imaginação do jogador.</p>
-        <p>Inicialmente os galvans não conseguiam usar tal energia de forma ofensiva, apenas ao entrarem em Incrilith e a necessidade extrema de sobreviver, logo suas finalidades defensivas e de auxílio possuem um impacto absurdamente maior, afinal sua origem vem do sentimento de proteger, curar e amar.</p>
-        <p>As magias polares que descendem do mantra são árduamente irracionais e sem explicação concreta, a sanidade do usuário é testada constantemente, podendo levá-lo a um delírio. Os humanos são incapazes de compreender tal aspecto, o que os levaria à loucura imediata caso tentassem manipular.
-        </p>
-        <p>Sendo assim, é a forma de magia mais segura ainda que cause leves impactos mentais, use com moderação e sem extrapolar os limites da sua mente e corpo, sua segurança é o pilar de Gama.</p>
-        <br />
-        <p>Bônus de Perícia;
-        <span style="color:#999999">(Considere se a maior proporção de suas habilidades forem de aspecto Polus)</span></p>
-        <p>Além de destravar Purificação (Espírito), escolha dois entre:</p>
-        <ul>
-          <li>Conjuração (Espírito)</li>
-          <li>Coragem (Mente/Corpo)</li>
-          <li>Lidar com criaturas (Carisma)</li>
-          <li>Medicina e Natureza (Mente)</li>
-          <li>Encorajar (Carisma)</li>
-          <li>Purificação (Espírito)</li>
-        </ul>
-        <h2>Minus</h2>
-        <p>O lado negado do mantra, antes era pura energia do caos, com origem dos pensamentos ruins dos galvans que foram desviados para a Norogai, mas após o adormecimento de Micardya e o nascimento dos carmesins, esse polo negativo da magia acabou se tornando abrangente e bastante útil para a nova raça.</p>
-        <p>Sua origem com o primeiro pesadelo de um carmesim e então em todas as más ações e sentimentos consequentes, mergulhando Exolith em uma grande era das trevas. É a magia que permite qualquer ser fazer o que bem entender, desde que haja receio, agonia e <span style="color: #ff0000">dor</span> em seu coração.</p>
-        <p>São as armas mais poderosas de toda Incrilith, porém cada habilidade ou feitiço é capaz de rasgar sua sanidade ao meio e até mesmo causar danos irreversíveis. Os usuários dessa energia que participam de Gama estão em constante tratamento psicológico e observação, qualquer passo em falso e sinal de hostilidade o usuário é avisado de sua execução iminente.</p>
-        <p>Bônus de Perícia;
-        <span style="color:#999999">(Considere se a maior proporção de suas habilidades forem de aspecto Minus)</span> 
-        Além de destravar Maldição (Espírito), escolha dois entre:</p>
+      <h2>Os dados de jogo:</h2>
 
-        <ul>
-          <li>Intimidação (Carisma/Corpo)</li>
-          <li>Furtividade (Destreza)</li>
-          <li>Persuasão (Carisma)</li>
-          <li>Ilusão (Espírito/Carisma)</li>
-          <li>Maldição (Espírito)</li>
-        </ul>
+      <p>Ao realizar ações decisivas que podem impactar no futuro da história, normalmente usaremos o d20, onde o mestre
+        decide uma dificuldade e o jogador precisa superá-la:</p>
 
-        <h2 style="color:#4a86e8">Sanidade</h2>
-        <p>Se o mantra fosse uma correnteza forte, a sua sanidade certamente seria a âncora.
-          A conexão entre o imaginário e o físico é a parte mais essencial da manipulação de mantra, é o que garante que você não se perca nas INFINITAS possibilidades da magia.</p>
-        <p>Cada liberação e manipulação enfraquece sua sanidade, cada natureza de mantra tem sua própria forma de a recuperar, sua sanidade é separada em 5 níveis, do mais forte ao mais fraco:</p>
+      <p><span style="color:#999999">“Os morcegos avançam em sua direção e tentam acertá-lo.”</span> O mestre rola seu
+        d20 e cai em 15, e então o jogador deve tentar superar esse número para não sofrer as consequências. A rolagem
+        de dados de Yuri cai em 14. <span style="color:#999999">“Você tenta esquivar mas falha, a quantidade massiva de
+          morcegos é capaz de te afugentar temporariamente da caverna.”</span></p>
 
-        <ul id="sanidade">
-          <li>125% - Quando seus pontos ultrapassam sua capacidade normal de sanidade por algum meio, sua mente é capaz de se conectar com a de outras pessoas, permitindo ajudá-las a combater sua Fobia;</li>
-          <li>100% - É o estado padrão em que todas as criaturas bem descansadas estão em sua melhor forma, sem efeitos colaterais ou benéficos;</li>
-          <li>50% - Sua mente oscila levemente no mundo físico, você se distrai com maior facilidade e ocasionalmente ouve vozes baixas ou enxerga vultos, recebe -1 em todos os dados (exceto dano)</li>
-          <li>25% - Você não sabe mais se está sonhando ou acordado então começa a fazer coisas que normalmente não faria, além de suas diversas vozes não conseguirem tomar nenhuma decisão, você fica completamente confuso e agonizando por estar incapacitado de raciocinar, é estressante e frustrante, você já não age por si, quem o controla agora é a magia. Recebe -2 em todos os dados (exceto dano, para estes ganhe +3)</li>
-          <li>Você sabe que alguém está vindo atrás de você.</li>
-          <li>0% - Seu mantra se conecta completamente com tudo e todos, seus sentidos de 5 foram para infinitos, é como se seu espírito estivesse se rasgando em bilhões de pedaços e sendo consumidos por tudo o que existe, você entende que é assim que o mantra se sente e então quer o libertar, como se de alguma forma fosse te trazer consolo.</li>
-        </ul>
+      <p>Outros valores podem ser levados em consideração, como <span style="color:#0000ff">modificadores de
+          habilidade</span>, por exemplo, se Yuri for um personagem com alta destreza seria mais difícil dos morcegos o
+        atingirem, podendo assim adicionar 1 ou mais valores no resultado de seu dado. Existem várias formas em como
+        esses modificadores podem afetar as ações dos personagens, isso será abordado com mais detalhes em outro
+        capítulo.</p>
+      <!-- /FIM CAPÍTULO 1-->
+      <h2>Importante:</h2>
+      <p>RPGs são extremamente flexíveis, ao mesmo tempo que podem ser como um jogo baseado em números, <span
+          style="color:#00ff00">pontos de vida</span> e dano, muitos elementos narrativos podem ser usados para
+        conversar ou ultrapassar essa necessidade. Por isso o Mestre precisa saber quando usar um dado, onde uma ação de
+        um jogador pode mudar totalmente o rumo da história.</p>
+      <p>Os jogadores podem explorar o universo narrado de acordo com a sua vontade, como por exemplo explorar,
+        interagir com o ambiente da maneira que preferir, conversar com outros personagens de jogadores ou até mesmo
+        personagens que o mestre interpreta (RPGs são mais divertidos quando os jogadores incorporam seus personagens e
+        passam a agir de acordo com seu temperamento e personalidade), e até mesmo combater contra quem quiserem.</p>
+      <!-- /FIM IMPORTANTE -->
+      <h2 style="margin:0 0 -15px 0">Onde usar as Perícias:</h2> <!-- INÍCIO CAPÍTULO 2-->
+      <p><span style="color:#999999; font-size: 0.75em;">Disponível em breve...</span></p>
 
-        <p>O usuário extrapola seu limite corporal e então personifica sua fobia, que o leva à sua própria cabeça deixando-o inconsciente, um jogo mental começa, cada segundo dentro de sua própria cabeça é torturante, uma experiência única que o mesmo nunca conseguiria descrever a alguém, só o destino e sua determinação conseguirá tirá-lo de lá agora.</p>
-        <p style="color:#4a86e8">Como recuperar/gerar?</p>
-        <p>Considere o aspecto que define em <span style="font-weight: bold; text-decoration: underline;">maioria</span> suas habilidades:</p>
-        <br />
-        <p> Polus - Bom descanso (sonhar), alimentação saudável, boas ações, realização pessoal altruísta, deixar os outros acima de você, ajudar os outros, cultivar a vida.</p>
-        <p>Minus - Sentimentos ruins (dor, sofrimento, ódio, tristeza), pesadelos, insalubridade, más ações, egoísmo, ceifar a vida.</p>
-        <p style="color:#4a86e8">De modo geral, durma, alimente-se, interaja socialmente.</p>
-        <h2 style="color:#351c75">Fobia</h2>
-        <p>Uma vez que o usuário entre em contato com o mantra, ele o tocará de volta, conectando todos os seus medos sejam fracos ou fortes e então gerando sua Fobia Pessoal. Cada criatura de Incrilith contém seu próprio demônio particular, ao estar a beira da loucura, uma caçada será iniciada e constantemente o usuário se sentirá observado, mal acompanhado, perturbado com mais frequência, até que a Fobia apareça diante de você.</p>
-        <p>Incrilith está lhe testando, procurando saber se você é digno do mantra, se sua mente é capaz de suportar o lado perverso da magia.</p>
-        <p> Uma vez que seu demônio te encontre, uma batalha mental é travada, sua fobia tenta te dominar enquanto você tenta afugentá-la, e ninguém jamais conseguirá de fato derrotá-la se não um usuário do foco da insanidade, a pior e com menor taxa de sobrevivência, ninguém a tenta por séculos, sendo assim abandonada por líderes e sem professor para ensinar. Sobreviver ao conflito mental faz você recuperar parte da sanidade e volta ao normal.</p>
-        <p> Caso sua mente corrompa e perca para seu demônio, você será engolido em um mar de sofrimento até que alguém liberte sua alma para a paz.<span style="color:#351c75"> FIM DE JOGO!</span></p>
-        <h2 style="color:#ffff00">Iniciação ao Mantra e Habilidades</h2>
-        <p style="color:#00ffff">Espírito ou Núcleo</p>
-        <p>Cada criatura em seu nascimento vem ao mundo com um núcleo predefinido, esta será sua representação mais simples e sem forma concreta do mantra, é algo inato e nunca muda, seu núcleo será interpretado como o Espírito.</p>
-        <p>Os espíritos tem sua própria raridade, mas não é algo que limita o jogador, pois o mesmo é quem decide qual será. Por exemplo, “Meu personagem Dave terá o espírito Tinta, sendo assim toda magia liberada por ele será proveniente de tintas e o que as compõem (cores, textura, ser líquido)”. Esse é um espírito incomum e que dificilmente haverá outras criaturas com a mesma habilidade de tintas. Aqueles que são comuns podem ser facilmente copiados a partir de um Foco, ou seja, com qualquer espírito você consegue representar “Fogo” de alguma forma se escolher o Foco Elemental, já tinta não há meios comuns para este.</p>
-        <p>Espíritos que possam ser extremamente exóticos e que tenham a capacidade até mesmo de distorcer regras precisam ser aprovadas pelo mestre, como Absorção, Tempo, Cópia, já que os mesmos podem ser interpretados de uma maneira totalmente diferente da pré-estabelecida neste manual.</p>
-        <p style="color:#ff0000"> Sangue é um núcleo indisponível e incoerente ao universo deste RPG.</p>
-        <p> Contudo, o mestre deve incentivar os jogadores a escolherem um Espírito criativo para que haja diversidade, e isso é claro não é regra, sinta-se livre para escolher qual núcleo quiser.</p>
-        <p>A seguir, classificaremos as habilidades de seu personagem. Lembre-se de que apesar de ser um sistema da Academia Gama, não se aplica apenas a seus alunos, já que é mais uma limitação física e não regulamentada.</p>
-        <p style="color:#00ffff">Habilidade de Espírito</p>
-        <p>Cada personagem tem uma habilidade em que seu espírito se manifesta de forma geral e está sempre presente em você, sem custo de sanidade. Será sua primeira habilidade, que pode ser despertada ao longo da vida ou não em raras exceções. Sua classe inicial será 0.</p>
-        <p style="color:#999999">“Dave descobriu que sua habilidade de Espírito era controlar a tinta (Núcleo) que saía de suor, com isso consegue criar mãos de tinta que fazem diversas tarefas para si (Habilidade de espírito)”</p>
-        <p>É a habilidade que tem maior poder narrativo, sendo assim caso necessário use o modificador de Espírito, além de que possui aspecto neutro do mantra em nível 0.</p>
-        <p style="color:#00ffff">Habilidade C (Habilidades Comuns)</p>
-        <p>É o nível mais baixo e mínimo que um feitiço consegue ter para causar danos ou efeitos notáveis. Seus valores variam de acordo com a natureza do mantra e não podem ser alterados após a criação da habilidade:<br />
-        <span style="color:#ff00ff;">Tenha em mente que algumas raças são limitadas a certo tipo de aspecto do mantra.</span></p>
-        <ul id="laranjinha">
-          <li>Polus recebe +2 em valores de cura, +2 em efeitos de proteger, -3 contra magias de Polus.</li>
-          <li>-1 Custo de Sanidade em Habilidades</li>
-          <li>Dado de dano: 1d4 por sanidade gasta (2 de sanidade = 2d4)</li>
-          <li>Dado de acerto: d20 + modificador de maior atributo</li>
-          <li>Limite de Sanidade: 2</li>
-        </ul>
-        <br />
-        <ul id="vermelhinho">
-          <li>Minus recebe +2 em efeitos de destruir, -3 contra magias de Minus.</li>
-          <li>+1 Custo de Sanidade em Habilidades</li>
-          <li>Dado de dano: 1d4 e +1 por sanidade gasta (2 de sanidade = 2d4 +2)</li>
-          <li>Dado de acerto: d20 +2 por nível de sanidade decaída + modificador de maior atributo</li>
-          <li>Limite de Sanidade: 4</li>
-        </ul>
-        <br />
-        <p>Tendo isso em mente, sua habilidade precisa fazer algo coerente ao seu <span style="font-weight:bold;color:#00ffff;text-decoration: underline">espírito e foco</span>, converse com o mestre para que ele possa dar auxílio no balanceamento do que pode ou não sua habilidade fazer, mas fora isso seja livre e deixe a criatividade à solta.</p>
-        <p style="color:#4a86e8">O Custo de Sanidade varia de acordo com a agência de sua habilidade, e é a única parte mutável da mesma, uma habilidade “Bola de Fogo” de nível C pode tanto gastar 1 de Sanidade quanto 2, mas seus efeitos não podem ser alterados, apenas seu dano nesse caso. Uma habilidade “Barreira de Gelo”, quanto maior o custo de sua sanidade maior ou mais duradoura ela pode ser por exemplo, isso depende de como o jogador quer estabelecer e cabe ao mestre aprovar.<br />A Agência de uma habilidade é aquilo que aumentará de acordo com a perda de sanidade, então sempre crie uma pensando neste ponto importante.</p>
-        <p style="color:#00ffff">Escola e Foco, são exclusivas de alunos da Academia, portanto considere suas habilidades apenas em caso de ser um. Escolas contam mais como um cargo do que de fato provê habilidades, sendo mais narrativo do que algo que regre suas habilidades, já o Foco precisa estar incluso e com seus efeitos adicionados a habilidade, aqui vai uma lista rápida sobre cada foco e seu atributo principal:<br><br>Animal: Foco que vem de um espírito guardião interior, você o manifesta. (Corpo e Espírito)<br><br> Elemental: Foco que permite moldar o mundo ao seu redor. (Espírito e Mente)<br><br>Selo: Foco que canaliza a magia em símbolos e escrituras. (Espírito e Destreza)<br><br>Caçador: Foco ofensivo que se especializa em assassinato, espionagem e trapaça (Destreza e Carisma)<br><br>Natural: Foco pacífico que vem de animais e plantas, criando diversas conexões (Carisma e Espírito)<br><br>Mecânico: Foco que permite guardar as habilidades em cápsulas de munição (Mente e Destreza)<br><br>Surya: Foco que se especializa em purificar e expurgar demônios (Corpo e Mente)<br><br>Marcial: Foco que permite a canalização do mantra através de uma arma, adicionando seus efeitos a ela. (Corpo e Destreza)<br><br />Maiores detalhes no Capítulo 3 “Criação de Personagem”</p>
-        <p style="color:#999999">“Por ser um Galvan, Dave precisa controlar suas emoções e garantir o bem para aqueles ao seu redor, sendo assim sua primeira Habilidade C terá natureza obrigatoriamente Polus, e por ser do Foco do Caçador ele decide que será ofensiva, o nome vai ser… “Jato Vermelho” vai ser um projétil (só acerta se estiver pertinho) de tinta vermelha que ao atingir um inimigo vai simular o sangue dele, causando dano (Vai ser só a sensação do sangue saindo, não de fato o líquido). Ah e meu personagem vai precisar de um pincel pra essa magia funcionar, e ele precisa estar suado pra ter tinta.” Sendo assim teremos:<br>Jato Vermelho: Polus<br>Efeito: Ao sacar seu pincel mágico, Dave desfere um ataque contra um alvo a curta distância, pintando “sangue” e fazendo com que o mesmo sinta a dor da perda. <br>Dano: d4 por sanidade<br>Acerto: d20 + 0 (Carisma = 11)<br>Custo: -1</p>
-        <p>Um personagem pode ter no máximo 5 Habilidades C:<br>1º Despertada em algum ponto após escolher um foco.<br>2º Custa 50 de Experiência<br>3º Custa 100 de Exp.<br>4º Custa 200 de Exp.<br>5º Custa 500 de Exp.</p>
-        <p>Neste tópico de habilidades é o primeiro ponto em que a Exp pode ser utilizada a fim de aprimorar o personagem. Ela é ganha de acordo com o mestre.<br>Dica: Cada missão da academia concluída = 25 exp</p>
-        <p style="color:#00ffff">Habilidade B (Habilidades Bases e Secundárias)</p>
-        <ul id="laranjinha">
-          <li>Polus recebe +4 em valores de cura, +4 em efeitos de proteger, -4 contra magias de Polus.</li>
-          <li>-2 Custo de Sanidade em Habilidades</li>
-          <li>Dado de dano: 1d4 e +1d4 por sanidade extra gasta (2 de sanidade = 2d4)</li>
-          <li>Dado de acerto: d20 + modificador de maior atributo</li>
-          <li>Limite de Sanidade: 4</li>
-        </ul>
-        <br />
-        <ul id="vermelhinho">
-          <li>Minus recebe +4 em efeitos de destruir, -2 contra magias de Minus.</li>
-          <li>+3 Custo de Sanidade em Habilidades</li>
-          <li>Dado de dano: 2d4+2 e +2d4+2 por sanidade extra gasta (3 de sanidade = 4d4 +4)</li>
-          <li>Dado de acerto: d20 +4 por nível de sanidade decaída + modificador de maior atributo</li>
-          <li>Limite de Sanidade: 8</li>
-        </ul>
+      <h1>Capítulo 2: Ambientação</h1>
+      <p>Bem-vindo à Incrilith, um reino onde os limites entre sonho e realidade se tornam tênues e os horizontes da
+        imaginação ganham vida. Este é um mundo separado da realidade conhecida, onde os sonhos e pesadelos não apenas
+        habitam as mentes, mas também se manifestam em formas tangíveis. Neste reino, a energia primordial do Mantra
+        flui como uma corrente vital, moldando tudo o que existe.</p>
+      <p>A pequena cidadela de Gama, liderada pelo misterioso Chiansyr Myamsar, é um farol de esperança em meio a um
+        oceano de desafios.</p>
+      <p> As diversas raças que habitam este reino trazem consigo suas histórias, habilidades únicas e desafios
+        pessoais. Os Galvans, com sua habilidade de manipular o Polus, os Vampiros, que buscam redenção enquanto travam
+        uma guerra sangrenta, os Biodúnyas, formas de vida que oscilam entre o orgânico e o mecânico (Crisoldúnya), os
+        Shivers, espíritos atormentados que buscam alívio no caos e os Kýttaros, criaturas misteriosas que alguns tratam
+        como lenda, confundidos facilmente com Galvans.</p>
+
+      <h1 style="color:#ffff00; font-weight: bold;">O Universo</h1> <!-- INÍCIO UNIVERSO -->
+      <p>O que é Incrilith? Como os sonhos se manifestam? Por que pesadelos existem? Quem é Chiansyr? Cadê os humanos?
+      </p>
+      <p> Então vamos começar, <span style="color:#999999">“Tudo começou em Exolith, onde apenas um plano material
+          existia, nós galvans éramos as únicas criaturas capazes de usar a magia desse mundo, nós sorrimos, festejamos,
+          nos alimentamos… e então nos tornamos a nossa própria ruína… Meu irmão, eras atrás decidiu abrir um
+          receptáculo que continha o mal capaz de combater contra nossas Deusas, isso nos levou a épocas de trevas, mas
+          eu estava lá, eu venci o mal. A Magia foi tão intensa que… rachou o universo em dois, Exolith não estava mais
+          lá, ao invés disso uma Terra fria, sem magia e caótica surgiu, e nós criaturas mágicas pagamos o preço,
+          enquanto metade do universo era “calmo” aqui onde paramos era devastado por criaturas violentas, é como se
+          cada pensamento ruim que um dia tivemos se materializasse para nos punir, e esse pesadelo se tornou sem fim.
+          Terra e Incrilith, Mundo real e Mundo dos sonhos chame do que quiserem… Quando cheguei aqui, estava no ápice
+          de meus poderes, moldei uma sociedade com os galvans restantes e então começamos a nos reerguer, porém além de
+          demônios haviam infinitas criaturas novas.” - Chiansyr</span>
+      </p>
+      <p>Quando o universo nasceu, existiam duas irmãs, Micardya e Lakrima, elas moldavam o universo com paixão,
+        enquanto uma construía a outra era especialista em ruir, uma irmã moldava o Mantra, que originalmente formava
+        100% do universo.</p>
+      <p>Criaram os galvans, seres parecidos com os humanos de hoje em dia, mas tinham a capacidade de criar assim como
+        sua deusa amada, com sentimentos positivos e alegres criaram o Polus a partir do mantra. Porém nem mesmo esses
+        seres eram perfeitos, seus sentimentos ruins foram direcionados a um receptáculo proibido, onde Lemnis, o
+        próprio caos nasceu.</p>
+      <p> A curiosidade dos galvans levou-os a abrir o receptáculo conhecido como Norogai, o que resultou no
+        adormecimento de Micardya. Logo, todas as criaturas vivas foram transformadas em pedra por um longo período.
+        Lakrima estava perplexa, uma vez que seu poder era o da destruição, mas ela sabia que não seria capaz de
+        destruir seu novo irmão, Lemnis. Porém o mesmo não se importava, ele começou a criar criaturas grotescas e
+        assimétricas apenas por diversão.</p>
+      <p>A <span style="color: #0000ff">irmã</span>, então, teve a ideia de purificar a corrupção entrópica causada por
+        essa nova ameaça, o que levou ao surgimento dos Carmesins. Esses seres se especializaram em manipular essa
+        energia negativa que Lemnis emanava pelo ar. E assim, o conceito de Minus se formou.</p>
+      <br />
+      <p>Uma guerra foi travada, a Arkwar… O Fim de <span style="color:#ff0000">Exolith.</span></p>
+      <p>Todos os carmesins morreram, o tecido da realidade foi rasgado, as <span style="color:#434343">Deusas</span>
+        morreram. Ninguém sabe exatamente o que aconteceu além de Chiansyr que se diz o Salvador.</p>
+      <p>Os humanos o chamam de Zeus, outros de Odin, alguns de Netuno, Horus e até mesmo de Susanoo.</p>
+      <p>Atualmente é o líder da Academia Gama, onde treina toda criatura disposta a lutar pelo seu reino.</p>
+      <!-- FIM UNIVERSO -->
+
+      <h2 style="color:#ffff00; font-weight: bold;">Mantra</h2> <!-- INÍCIO MANTRA -->
+      <p>É a essência fundamental que permeia todo o universo de Incrilith. Ele é a energia vital que flui por todas as
+        coisas, desde os seres vivos até os elementos naturais e os próprios sentimentos. O Mantra é a fonte da magia
+        neste mundo, e cada criatura possui uma conexão intrínseca com essa energia.</p>
+      <p>Cada ser em Incrilith tem a capacidade de canalizá-lo de maneira única, manifestando-o através de suas ações e
+        intenções. Isso significa que o Mantra não é apenas uma força mística, mas também uma expressão pessoal que
+        reflete os pensamentos, emoções e desejos de cada indivíduo.</p>
+      <p>Dentro deste RPG, o Mantra é a base para as habilidades mágicas e especiais das diferentes raças e Focos. Os
+        personagens podem aprender a manipulá-lo de várias maneiras, seja para lançar feitiços, aprimorar suas
+        habilidades físicas, criar objetos mágicos ou realizar proezas extraordinárias. Cada escolha que um personagem
+        faz, cada ação que ele toma, está intrinsecamente ligada ao seu Mantra.</p>
+      <p>Em resumo, é a energia vital que permeia o mundo de Incrilith e serve como a fonte e o catalisador para todas
+        as formas de magia e poderes especiais no RPG. Ele é a conexão entre os personagens, a natureza e o universo que
+        os cerca.</p>
+      <p>O Mantra pode ser movido para locais em que ele ainda não esteja presente, como por exemplo no mundo material
+        dos humanos, porém apenas com seu controle elevado.</p>
+      <p>Um usuário de mantra precisa dominar o conhecimento sobre seus 4 aspectos:</p>
+
+      <h2>Polus</h2>
+      <p>Uma vertente positiva do mantra, sua origem com o primeiro sonho de um galvan e então em todas as boas ações e
+        sentimentos consequentes, logo essa energia tomou conta de Exolith, se tornando assim a primeira ferramenta
+        dessas criaturas pensantes iniciais. Conforme o tempo passava a técnica foi se refinando, diversificando, ramos
+        de polus surgiram e as possibilidades mágicas tornaram-se infinitas, o único limite é a imaginação do jogador.
+      </p>
+      <p>Inicialmente os galvans não conseguiam usar tal energia de forma ofensiva, apenas ao entrarem em Incrilith e a
+        necessidade extrema de sobreviver, logo suas finalidades defensivas e de auxílio possuem um impacto absurdamente
+        maior, afinal sua origem vem do sentimento de proteger, curar e amar.</p>
+      <p>As magias polares que descendem do mantra são árduamente irracionais e sem explicação concreta, a sanidade do
+        usuário é testada constantemente, podendo levá-lo a um delírio. Os humanos são incapazes de compreender tal
+        aspecto, o que os levaria à loucura imediata caso tentassem manipular.
+      </p>
+      <p>Sendo assim, é a forma de magia mais segura ainda que cause leves impactos mentais, use com moderação e sem
+        extrapolar os limites da sua mente e corpo, sua segurança é o pilar de Gama.</p>
+      <br />
+      <p>Bônus de Perícia;
+        <span style="color:#999999">(Considere se a maior proporção de suas habilidades forem de aspecto Polus)</span>
+      </p>
+      <p>Além de destravar Purificação (Espírito), escolha dois entre:</p>
+      <ul>
+        <li>Conjuração (Espírito)</li>
+        <li>Coragem (Mente/Corpo)</li>
+        <li>Lidar com criaturas (Carisma)</li>
+        <li>Medicina e Natureza (Mente)</li>
+        <li>Encorajar (Carisma)</li>
+        <li>Purificação (Espírito)</li>
+      </ul>
+      <h2>Minus</h2>
+      <p>O lado negado do mantra, antes era pura energia do caos, com origem dos pensamentos ruins dos galvans que foram
+        desviados para a Norogai, mas após o adormecimento de Micardya e o nascimento dos carmesins, esse polo negativo
+        da magia acabou se tornando abrangente e bastante útil para a nova raça.</p>
+      <p>Sua origem com o primeiro pesadelo de um carmesim e então em todas as más ações e sentimentos consequentes,
+        mergulhando Exolith em uma grande era das trevas. É a magia que permite qualquer ser fazer o que bem entender,
+        desde que haja receio, agonia e <span style="color: #ff0000">dor</span> em seu coração.</p>
+      <p>São as armas mais poderosas de toda Incrilith, porém cada habilidade ou feitiço é capaz de rasgar sua sanidade
+        ao meio e até mesmo causar danos irreversíveis. Os usuários dessa energia que participam de Gama estão em
+        constante tratamento psicológico e observação, qualquer passo em falso e sinal de hostilidade o usuário é
+        avisado de sua execução iminente.</p>
+      <p>Bônus de Perícia;
+        <span style="color:#999999">(Considere se a maior proporção de suas habilidades forem de aspecto Minus)</span>
+        Além de destravar Maldição (Espírito), escolha dois entre:
+      </p>
+
+      <ul>
+        <li>Intimidação (Carisma/Corpo)</li>
+        <li>Furtividade (Destreza)</li>
+        <li>Persuasão (Carisma)</li>
+        <li>Ilusão (Espírito/Carisma)</li>
+        <li>Maldição (Espírito)</li>
+      </ul>
+
+      <h2 style="color:#4a86e8">Sanidade</h2>
+      <p>Se o mantra fosse uma correnteza forte, a sua sanidade certamente seria a âncora.
+        A conexão entre o imaginário e o físico é a parte mais essencial da manipulação de mantra, é o que garante que
+        você não se perca nas INFINITAS possibilidades da magia.</p>
+      <p>Cada liberação e manipulação enfraquece sua sanidade, cada natureza de mantra tem sua própria forma de a
+        recuperar, sua sanidade é separada em 5 níveis, do mais forte ao mais fraco:</p>
+
+      <ul id="sanidade">
+        <li>125% - Quando seus pontos ultrapassam sua capacidade normal de sanidade por algum meio, sua mente é capaz de
+          se conectar com a de outras pessoas, permitindo ajudá-las a combater sua Fobia;</li>
+        <li>100% - É o estado padrão em que todas as criaturas bem descansadas estão em sua melhor forma, sem efeitos
+          colaterais ou benéficos;</li>
+        <li>50% - Sua mente oscila levemente no mundo físico, você se distrai com maior facilidade e ocasionalmente ouve
+          vozes baixas ou enxerga vultos, recebe -1 em todos os dados (exceto dano)</li>
+        <li>25% - Você não sabe mais se está sonhando ou acordado então começa a fazer coisas que normalmente não faria,
+          além de suas diversas vozes não conseguirem tomar nenhuma decisão, você fica completamente confuso e
+          agonizando por estar incapacitado de raciocinar, é estressante e frustrante, você já não age por si, quem o
+          controla agora é a magia. Recebe -2 em todos os dados (exceto dano, para estes ganhe +3)</li>
+        <li>Você sabe que alguém está vindo atrás de você.</li>
+        <li>0% - Seu mantra se conecta completamente com tudo e todos, seus sentidos de 5 foram para infinitos, é como
+          se seu espírito estivesse se rasgando em bilhões de pedaços e sendo consumidos por tudo o que existe, você
+          entende que é assim que o mantra se sente e então quer o libertar, como se de alguma forma fosse te trazer
+          consolo.</li>
+      </ul>
+
+      <p>O usuário extrapola seu limite corporal e então personifica sua fobia, que o leva à sua própria cabeça
+        deixando-o inconsciente, um jogo mental começa, cada segundo dentro de sua própria cabeça é torturante, uma
+        experiência única que o mesmo nunca conseguiria descrever a alguém, só o destino e sua determinação conseguirá
+        tirá-lo de lá agora.</p>
+      <p style="color:#4a86e8">Como recuperar/gerar?</p>
+      <p>Considere o aspecto que define em <span style="font-weight: bold; text-decoration: underline;">maioria</span>
+        suas habilidades:</p>
+      <br />
+      <p> Polus - Bom descanso (sonhar), alimentação saudável, boas ações, realização pessoal altruísta, deixar os
+        outros acima de você, ajudar os outros, cultivar a vida.</p>
+      <p>Minus - Sentimentos ruins (dor, sofrimento, ódio, tristeza), pesadelos, insalubridade, más ações, egoísmo,
+        ceifar a vida.</p>
+      <p style="color:#4a86e8">De modo geral, durma, alimente-se, interaja socialmente.</p>
+      <h2 style="color:#351c75">Fobia</h2>
+      <p>Uma vez que o usuário entre em contato com o mantra, ele o tocará de volta, conectando todos os seus medos
+        sejam fracos ou fortes e então gerando sua Fobia Pessoal. Cada criatura de Incrilith contém seu próprio demônio
+        particular, ao estar a beira da loucura, uma caçada será iniciada e constantemente o usuário se sentirá
+        observado, mal acompanhado, perturbado com mais frequência, até que a Fobia apareça diante de você.</p>
+      <p>Incrilith está lhe testando, procurando saber se você é digno do mantra, se sua mente é capaz de suportar o
+        lado perverso da magia.</p>
+      <p> Uma vez que seu demônio te encontre, uma batalha mental é travada, sua fobia tenta te dominar enquanto você
+        tenta afugentá-la, e ninguém jamais conseguirá de fato derrotá-la se não um usuário do foco da insanidade, a
+        pior e com menor taxa de sobrevivência, ninguém a tenta por séculos, sendo assim abandonada por líderes e sem
+        professor para ensinar. Sobreviver ao conflito mental faz você recuperar parte da sanidade e volta ao normal.
+      </p>
+      <p> Caso sua mente corrompa e perca para seu demônio, você será engolido em um mar de sofrimento até que alguém
+        liberte sua alma para a paz.<span style="color:#351c75"> FIM DE JOGO!</span></p>
+      <h2 style="color:#ffff00">Iniciação ao Mantra e Habilidades</h2>
+      <p style="color:#00ffff">Espírito ou Núcleo</p>
+      <p>Cada criatura em seu nascimento vem ao mundo com um núcleo predefinido, esta será sua representação mais
+        simples e sem forma concreta do mantra, é algo inato e nunca muda, seu núcleo será interpretado como o Espírito.
+      </p>
+      <p>Os espíritos tem sua própria raridade, mas não é algo que limita o jogador, pois o mesmo é quem decide qual
+        será. Por exemplo, “Meu personagem Dave terá o espírito Tinta, sendo assim toda magia liberada por ele será
+        proveniente de tintas e o que as compõem (cores, textura, ser líquido)”. Esse é um espírito incomum e que
+        dificilmente haverá outras criaturas com a mesma habilidade de tintas. Aqueles que são comuns podem ser
+        facilmente copiados a partir de um Foco, ou seja, com qualquer espírito você consegue representar “Fogo” de
+        alguma forma se escolher o Foco Elemental, já tinta não há meios comuns para este.</p>
+      <p>Espíritos que possam ser extremamente exóticos e que tenham a capacidade até mesmo de distorcer regras precisam
+        ser aprovadas pelo mestre, como Absorção, Tempo, Cópia, já que os mesmos podem ser interpretados de uma maneira
+        totalmente diferente da pré-estabelecida neste manual.</p>
+      <p style="color:#ff0000"> Sangue é um núcleo indisponível e incoerente ao universo deste RPG.</p>
+      <p> Contudo, o mestre deve incentivar os jogadores a escolherem um Espírito criativo para que haja diversidade, e
+        isso é claro não é regra, sinta-se livre para escolher qual núcleo quiser.</p>
+      <p>A seguir, classificaremos as habilidades de seu personagem. Lembre-se de que apesar de ser um sistema da
+        Academia Gama, não se aplica apenas a seus alunos, já que é mais uma limitação física e não regulamentada.</p>
+      <p style="color:#00ffff">Habilidade de Espírito</p>
+      <p>Cada personagem tem uma habilidade em que seu espírito se manifesta de forma geral e está sempre presente em
+        você, sem custo de sanidade. Será sua primeira habilidade, que pode ser despertada ao longo da vida ou não em
+        raras exceções. Sua classe inicial será 0.</p>
+      <p style="color:#999999">“Dave descobriu que sua habilidade de Espírito era controlar a tinta (Núcleo) que saía de
+        suor, com isso consegue criar mãos de tinta que fazem diversas tarefas para si (Habilidade de espírito)”</p>
+      <p>É a habilidade que tem maior poder narrativo, sendo assim caso necessário use o modificador de Espírito, além
+        de que possui aspecto neutro do mantra em nível 0.</p>
+      <p style="color:#00ffff">Habilidade C (Habilidades Comuns)</p>
+      <p>É o nível mais baixo e mínimo que um feitiço consegue ter para causar danos ou efeitos notáveis. Seus valores
+        variam de acordo com a natureza do mantra e não podem ser alterados após a criação da habilidade:<br />
+        <span style="color:#ff00ff;">Tenha em mente que algumas raças são limitadas a certo tipo de aspecto do
+          mantra.</span>
+      </p>
+      <ul id="laranjinha">
+        <li>Polus recebe +2 em valores de cura, +2 em efeitos de proteger, -3 contra magias de Polus.</li>
+        <li>-1 Custo de Sanidade em Habilidades</li>
+        <li>Dado de dano: 1d4 por sanidade gasta (2 de sanidade = 2d4)</li>
+        <li>Dado de acerto: d20 + modificador de maior atributo</li>
+        <li>Limite de Sanidade: 2</li>
+      </ul>
+      <br />
+      <ul id="vermelhinho">
+        <li>Minus recebe +2 em efeitos de destruir, -3 contra magias de Minus.</li>
+        <li>+1 Custo de Sanidade em Habilidades</li>
+        <li>Dado de dano: 1d4 e +1 por sanidade gasta (2 de sanidade = 2d4 +2)</li>
+        <li>Dado de acerto: d20 +2 por nível de sanidade decaída + modificador de maior atributo</li>
+        <li>Limite de Sanidade: 4</li>
+      </ul>
+      <br />
+      <p>Tendo isso em mente, sua habilidade precisa fazer algo coerente ao seu <span
+          style="font-weight:bold;color:#00ffff;text-decoration: underline">espírito e foco</span>, converse com o
+        mestre para que ele possa dar auxílio no balanceamento do que pode ou não sua habilidade fazer, mas fora isso
+        seja livre e deixe a criatividade à solta.</p>
+      <p style="color:#4a86e8">O Custo de Sanidade varia de acordo com a agência de sua habilidade, e é a única parte
+        mutável da mesma, uma habilidade “Bola de Fogo” de nível C pode tanto gastar 1 de Sanidade quanto 2, mas seus
+        efeitos não podem ser alterados, apenas seu dano nesse caso. Uma habilidade “Barreira de Gelo”, quanto maior o
+        custo de sua sanidade maior ou mais duradoura ela pode ser por exemplo, isso depende de como o jogador quer
+        estabelecer e cabe ao mestre aprovar.<br />A Agência de uma habilidade é aquilo que aumentará de acordo com a
+        perda de sanidade, então sempre crie uma pensando neste ponto importante.</p>
+      <p style="color:#00ffff">Escola e Foco, são exclusivas de alunos da Academia, portanto considere suas habilidades
+        apenas em caso de ser um. Escolas contam mais como um cargo do que de fato provê habilidades, sendo mais
+        narrativo do que algo que regre suas habilidades, já o Foco precisa estar incluso e com seus efeitos adicionados
+        a habilidade, aqui vai uma lista rápida sobre cada foco e seu atributo principal:<br><br>Animal: Foco que vem de
+        um espírito guardião interior, você o manifesta. (Corpo e Espírito)<br><br> Elemental: Foco que permite moldar o
+        mundo ao seu redor. (Espírito e Mente)<br><br>Selo: Foco que canaliza a magia em símbolos e escrituras.
+        (Espírito e Destreza)<br><br>Caçador: Foco ofensivo que se especializa em assassinato, espionagem e trapaça
+        (Destreza e Carisma)<br><br>Natural: Foco pacífico que vem de animais e plantas, criando diversas conexões
+        (Carisma e Espírito)<br><br>Mecânico: Foco que permite guardar as habilidades em cápsulas de munição (Mente e
+        Destreza)<br><br>Surya: Foco que se especializa em purificar e expurgar demônios (Corpo e Mente)<br><br>Marcial:
+        Foco que permite a canalização do mantra através de uma arma, adicionando seus efeitos a ela. (Corpo e
+        Destreza)<br><br />Maiores detalhes no Capítulo 3 “Criação de Personagem”</p>
+      <p style="color:#999999">“Por ser um Galvan, Dave precisa controlar suas emoções e garantir o bem para aqueles ao
+        seu redor, sendo assim sua primeira Habilidade C terá natureza obrigatoriamente Polus, e por ser do Foco do
+        Caçador ele decide que será ofensiva, o nome vai ser… “Jato Vermelho” vai ser um projétil (só acerta se estiver
+        pertinho) de tinta vermelha que ao atingir um inimigo vai simular o sangue dele, causando dano (Vai ser só a
+        sensação do sangue saindo, não de fato o líquido). Ah e meu personagem vai precisar de um pincel pra essa magia
+        funcionar, e ele precisa estar suado pra ter tinta.” Sendo assim teremos:<br>Jato Vermelho: Polus<br>Efeito: Ao
+        sacar seu pincel mágico, Dave desfere um ataque contra um alvo a curta distância, pintando “sangue” e fazendo
+        com que o mesmo sinta a dor da perda. <br>Dano: d4 por sanidade<br>Acerto: d20 + 0 (Carisma = 11)<br>Custo: -1
+      </p>
+      <p>Um personagem pode ter no máximo 5 Habilidades C:<br>1º Despertada em algum ponto após escolher um foco.<br>2º
+        Custa 50 de Experiência<br>3º Custa 100 de Exp.<br>4º Custa 200 de Exp.<br>5º Custa 500 de Exp.</p>
+      <p>Neste tópico de habilidades é o primeiro ponto em que a Exp pode ser utilizada a fim de aprimorar o personagem.
+        Ela é ganha de acordo com o mestre.<br>Dica: Cada missão da academia concluída = 25 exp</p>
+      <p style="color:#00ffff">Habilidade B (Habilidades Bases e Secundárias)</p>
+      <ul id="laranjinha">
+        <li>Polus recebe +4 em valores de cura, +4 em efeitos de proteger, -4 contra magias de Polus.</li>
+        <li>-2 Custo de Sanidade em Habilidades</li>
+        <li>Dado de dano: 1d4 e +1d4 por sanidade extra gasta (2 de sanidade = 2d4)</li>
+        <li>Dado de acerto: d20 + modificador de maior atributo</li>
+        <li>Limite de Sanidade: 4</li>
+      </ul>
+      <br />
+      <ul id="vermelhinho">
+        <li>Minus recebe +4 em efeitos de destruir, -2 contra magias de Minus.</li>
+        <li>+3 Custo de Sanidade em Habilidades</li>
+        <li>Dado de dano: 2d4+2 e +2d4+2 por sanidade extra gasta (3 de sanidade = 4d4 +4)</li>
+        <li>Dado de acerto: d20 +4 por nível de sanidade decaída + modificador de maior atributo</li>
+        <li>Limite de Sanidade: 8</li>
+      </ul>
+      <br>
+      <p> Ao evoluir sua <span style="color:#ff9900">Classe Escolar</span>:<br>Escolha 3 Habilidades C para se tornarem
+        Habilidades Base.</p>
+      <p style="color:#999999">“Dave após suas incontáveis missões e feitos, seu professor de foco decidiu que ele
+        merece um treinamento especial que o permitiu ampliar seu “Jato Vermelho” que então se tornou uma Habilidade B
+        (ou Base). Dave agora a rebatiza para “Tinta Vermelha” que terá as seguintes propriedades:<br>Tinta Vermelha:
+        Polus<br>Efeito: Permite Dave que comece a suar tinta vermelha, durante esse período toda criatura que ele tocar
+        terá a sensação de sua carne exposta ao ar (apenas a sensação) e então agonizam em dor.<br>Dano: 1d4 base e +1d4
+        por sanidade<br>Acerto: d20 + 2 (Carisma = 14)<br>Custo: -2</p>
+      <p>aprimore sua <span style="color:#00ffff"> Habilidade de Espírito:<br>Adicione Polus/Minus e seus respectivos
+          dados (Classe C) </span>
         <br>
-        <p> Ao evoluir sua <span style="color:#ff9900">Classe Escolar</span>:<br>Escolha 3 Habilidades C para se tornarem Habilidades Base.</p>
-        <p style="color:#999999">“Dave após suas incontáveis missões e feitos, seu professor de foco decidiu que ele merece um treinamento especial que o permitiu ampliar seu “Jato Vermelho” que então se tornou uma Habilidade B (ou Base). Dave agora a rebatiza para “Tinta Vermelha” que terá as seguintes propriedades:<br>Tinta Vermelha: Polus<br>Efeito: Permite Dave que comece a suar tinta vermelha, durante esse período toda criatura que ele tocar terá a sensação de sua carne exposta ao ar (apenas a sensação) e então agonizam em dor.<br>Dano: 1d4 base e +1d4 por sanidade<br>Acerto: d20 + 2 (Carisma = 14)<br>Custo: -2</p>
-        <p>aprimore sua <span style="color:#00ffff"> Habilidade de Espírito:<br>Adicione Polus/Minus e seus respectivos dados (Classe C) </span>
+      <p style="color:#999999"> “Ao compreender melhor como suas mãos de tinta funcionam, Dave consegue aplicar seus
+        efeitos de habilidade Base a elas além de terem um maior alcance. Também aplicou o aspecto Polus, sendo assim
+        caso elas ataquem sem um efeito de habilidade terão 1d4 de dano, +2 em efeitos de proteger, -3 contra polus e
+        seu acerto terá bônus de 2 (Carisma = 14)”</p>
+      <p>Agora as outras Habilidades C, caso as tenha, se tornam Habilidades Secundárias, que têm o mesmo efeito da
+        Habilidade de Espírito e grande impacto narrativo.</p>
+      <p style="color:#999999">“Dave transforma sua habilidade C “manto de tinta” em uma habilidade secundária que tem o
+        seguinte efeito: Ao cobrir seu corpo com suas mãos de tinta, consegue se camuflar em superfícies de qualquer
+        cor, dando uma vantagem de +3 em furtividade”<br>*Anteriormente a habilidade tinha uma duração, gastava sanidade
+        e tinha o aspecto Polus.</p>
+      <p style="color:#00ffff">Habilidade A e S:<br><span style="color:#434343">Disponível em breve...</span></p>
+      <!-- /FIM MANTRA -->
+      <h2 style="color: #ffff00">Regiões</h2>
+      <p style="color:#434343">Disponível em breve...</p>
+      <h2 style="color: #ffff00">Raças</h2>
+      <p>Toda criatura nasce do Mantra, mas nem todas têm os mesmos privilégios…</p>
+      <p style="color:#434343">(Irei anexar uma música [a maioria vocaloid] que representa emocionalmente cada raça,
+        além de ser por charme é por que em um mundo de sentimentos e sonhos como Incrilith, é essencial neste RPG a
+        inclusão de como lidam com o ambiente.)</p>
+      <p>*Este será o sub-capítulo mais longo e detalhado, se quiser deixar para depois não é uma má ideia.</p>
+      <br><br>
+      <h2 style="font-weight: bold; font-style:italic">Galvans</h2>
+      <p style="color:#666666">Kikuo - Bem vindo a Pousada Estelar</p>
+
+      <div id="player1"></div> <!-- PLAYER 1 -->
+
+      <p style="color:#9900ff;font-weight: bold">Origem:</p>
+      <P>Estes nasceram do mantra puro, viveram por milênios através das eras… Seus pensamentos positivos abrangem a
+        flor da pele, o desejo de estarem vivos supera qualquer barreira, sua capacidade de sobrevivência os trouxe até
+        a atualidade, onde nascem, crescem, treinam e morrem. No início eram sozinhos, durante essa época sua tecnologia
+        era baseada em magia, com um aspecto bem medieval mas sem a necessidade de armas, apenas alguns atrevidos
+        enxergavam a beleza em artes marciais e treinavam por diversão, dentre eles Chiansyr. Prosperavam e eram
+        alegres, qualquer pensamento ruim era filtrado e descartado, afinal foram criados para a perfeição. Após anos de
+        paz, encontraram a Norogai, o local de descanso do deus do caos, Lemnis. </P>
+      <P>Como seu povo era baseado em fé, as deusas não mantinham contato direto, então o ceticismo de alguns a respeito
+        daquele receptáculo causou uma divisão social entre os que queriam abrir e os que não queriam. Seria um debate
+        justo, até que uma fagulha entrópica atingiu um galvan que o forçou a abrir, mergulhando Exolith em trevas e
+        pedras.</P>
+      <P>Lakrima consegue despertar Chiansyr e por ser experiente em combate acaba o pedindo ajuda contra o deus do
+        caos. Iniciando-se então a Arkwar, travaram uma guerra com os Carmesins. O que aconteceu de fato permanece um
+        mistério e aqueles que sabem se recusam a falar, apenas que quase foram extintos junto com seus rivais, e
+        tiveram que recomeçar sua vida em um novo lugar repleto de monstros.</P>
+      <P>Atualmente estão ao sul de Incrilith. Nascem na Academia, um reino em que cada tecnologia tem sua finalidade, a
+        magia sendo a mais versátil e abrangente, presente em agricultura, medicina, combate, infraestrutura, etc.; Em
+        seguida a eletrônica, tratada como um tabu por alguns, existe para suprir as necessidades automáticas do reino,
+        escavação, construção, e relações nano-mantrais, ferramentas que fundem a magia com equipamentos permitindo
+        qualquer criatura usar magia com o apertar de um gatilho; E por último o Medievalismo, em que é focado
+        totalmente na batalha, com infinitos tipos de armas, imbuídas ou não com a magia.</P>
+      <p style="color:#9900ff;font-weight: bold">Cultura e Vivência:</p>
+      <p>Ao nascer, suas vidas são entregues ao reino, a única liberdade é a de escolher sua vocação. Aqueles que
+        decidem uma Escola selam seu destino à vitória, e aqueles incapazes vão gastar suas vidas na lavoura. Dentre a
+        população, aproximadamente 400 são crianças e pessoas debilitadas, 300 “camponeses”, 300 guerreiros e 120
+        Alunos.</p>
+      <p>Passam suas vidas inteiras trabalhando, isso causa certa exaustão mental e uma pressão social inevitável da
+        ameaça que os cerca. Alguns preferem manter o otimismo, já que sua magia depende disso, outros são extremistas e
+        acreditam que isso nunca terá um fim se não caçarem o mal pela raiz. A jornada de um jovem “sucedido” é a de
+        crescerem fortes e saudáveis até os 12 anos, logo então precisam escolher uma Escola, deixar seus pais, e ver em
+        qual Foco se encaixam.</p>
+      <p>Após isso e dependendo de sua área, avançam de classe de acordo com seus maiores feitos e com a aprovação de
+        seu professor que será um classe S. Ao crescerem e alcançarem seus professores, eles irão escolher se
+        continuarão os treinamentos, serem treinados pelos Líderes de Foco e até mesmo por Chiansyr, ou se tornarem
+        guerreiros formados, que tem praticamente sua vida feita e selada.</p>
+      <p>Embora em constante batalha, os galvans tem uma sociedade interior “tranquila”, os alunos e guerreiros recebem
+        recursos gratuitamente dos camponeses, que também trocam entre si. Há exceções de rebeldes, mas estes procuram
+        abrigo fora do reino.</p>
+      <br>
+      <p>Cada Foco exerce uma função no reino, os Selo cuidam da barreira protetora e purificação de insanidade causada
+        por fobias, os Elementais são flexíveis e estão por toda parte, os Animais normalmente em linhas de frente, os
+        Naturais seguem a filosofia da paz e atuam na medicina e até mesmo alquimia, os Caçadores são reservados e
+        preferem agir em missões de espionagem e assassinato fora do reino, Mecânicos em aprimoramentos de todas as
+        áreas mas seu QG está fora do reino por um tabu e preconceito conservador, os Suryas passam sua vida treinando a
+        mira e atirando em todo tipo de monstro para enfrentar o Breu, e por último mas não menos importante temos os
+        Marciais, líderes das linhas de frente que com muito rancor dificilmente aceitam ajuda dos outros Focos.</p>
+      <p>Sua interação com as outras raças é de modo geral violenta, tudo em prol da proteção do reino, seja um vampiro
+        ou qualquer criatura, apresentou hostilidade e será morto na hora. Não tem aliados e inimigos concretos, apenas
+        contra-atacam e aceitam aqueles que querem ajudar <span style="color:#434343">(Caçadores ficam de escolta em
+          tempo integral para garantir a segurança dos cidadãos nesse caso).</span></p>
+      <p style="color:#9900ff;font-weight: bold">Aparência e aspectos biológicos:</p>
+      <p>Apesar de sua semelhança com os humanos, alguns traços e detalhes podem diferir essa raça. Naturalmente, os
+        olhos podem ser de qualquer cor exceto vermelho, seus cabelos podem ser de qualquer cor, a média de sua altura
+        varia de 1,5 até 2,5 metros, possuem qualquer cor de pele humana, com algumas exceções como tons de azul e tons
+        de cinza. Se existisse um galvan em meio a humanos provavelmente passaria despercebido.</p>
+      <p>Suas necessidades são as mesmas que a de humanos, porém sua saúde é duas vezes mais fácil de manter e por isso
+        vivem até no máximo 200 anos. Conseguem sobreviver por muito mais tempo sem suprir suas necessidades básicas, o
+        mantra serve de nutriente emergencial assim como a gordura humana, mas isso causa insanidade.</p>
+      <br>
+      <p style="color:#9900ff;font-weight: bold">Atributos:<br>
+        <span style="color:#00ff00">Dados de vida: 12 (2d6 para cada classe posterior)</span><br>
+        <span style="color:#4a86e8">Sanidade: 10</span><br>
+        <span style="color:#ff00ff">3 Pontos de Incremento</span>
+      </p>
+      <p style="color:#9900ff;font-weight: bold">Habilidades:</p><br>
+      <p style="color:#00ff00;font-weight: bold">Alta Adaptabilidade:<br>
+        <span style="color: #fff;font-weight: 100">Mesmo fora de seu reino, a terra é seu lar, os galvans conseguem
+          levar um pedaço de sua casa onde quer que vão, seja sombrio ou não. Ao estar fora de Gama recebem +1 em todos
+          os dados.</span>
+      </p>
+      <p style="color:#00ff00;font-weight: bold">Sanidade Estável:<br>
+        <span style="color: #fff;font-weight: 100">Antes de sua sanidade chegar a 0% podem rolar um teste de Coragem
+          para recuperar 1 ponto, só pode ser usado uma vez após um descanso longo.</span>
+      </p>
+      <p style="color:#00ff00;font-weight: bold">Autossuficiência:<br>
+        <span style="color: #fff;font-weight: 100">Os Galvans têm habilidades únicas de sobrevivência que lhes permitem
+          encontrar recursos em diferentes ambientes. Isso lhes dá a capacidade de encontrar comida, água e abrigo com
+          facilidade, reduzindo as necessidades básicas durante suas aventuras. Podem passar o dobro do tempo sem
+          alimento, água e dormir.</span>
+      </p>
+      <p style="color:#ff0000;font-weight: bold">Orgulho alto:<br>
+        <span style="color: #fff;font-weight: 100">Esta raça tem um senso elevado de orgulho em relação às suas raízes e
+          ao seu reino, Gama. No entanto, essa confiança excessiva às vezes pode torná-los relutantes em pedir ajuda a
+          outras raças ou em aceitar conselhos. Isso pode prejudicar suas interações sociais com outros grupos. -2 em
+          testes de Carisma ao interagir com outras raças que não têm ligação com Gama ou ao receber conselhos.</span>
+      </p>
+      <p style="color:#ff0000;font-weight: bold">Anti-Minus:<br>
+        <span style="color: #fff;font-weight: 100">Ao terem sua origem a partir de um mundo onde apenas polus existia,
+          seus corpos acabaram se tornando dependentes desse aspecto, o qual limita suas habilidades apenas para
+          polus.</span>
+      </p>
+      <p style="color:#ff0000;font-weight: bold">Carne e Osso:<br>
+        <span style="color: #fff;font-weight: 100">A presença dos Galvans fora de Gama pode atrair a atenção indesejada
+          de criaturas predadoras. Sua conexão com o mantra saudável torna-os uma presa atrativa para seres como
+          Shivers, Vampiros e Biodúnyas famintos. Fazendo com que sempre sejam o foco principal de um combate.</span>
+      </p>
+       <br><br>
+       <h2 style="font-weight: bold; font-style:italic">Vampiros</h2>
+       <p style="color:#666666">Babuchan - Balloooon Syndrome</p>
+
+      <div id="player2"></div>
+      <p style="color:#ff0000;font-weight: bold">Origem:</p>
+      <p>Quando um carmesim morre seu espírito navega por uma correnteza de dor infernal, até que possa se tornar o
+        sonho de outra criatura, e então uma flor desabrocha. O primeiro deles foi Drácula Drah'keen, a criatura que
+        teve o prazer de sentir o gosto da morte pela primeira vez e poder contar a história. Este forjou seu reino com
+        medo e pavor daqueles que podiam andar sob a luz do dia, esfomeado durante a noite, procurava sobreviver,
+        encontrou uma aldeia e então… a perversidade daqueles vivos o atormentou, o medo que o fazia transpirar
+        despertou junto com a mão de seus ancestrais, uma chuva de sangue… uma proteção para não morrer de novo, por que
+        esse vazio só os vampiros conseguem entender.</p>
+      <p>Tiamatia nasceu, forjada também no ódio daquela sangrenta guerra que atormenta essas criaturas até os dias de
+        hoje, um reinado medieval e um castelo vertical com cerca de 150 metros de altura. O ninho de criaturas aladas e
+        humanóides que nenhum desconvidado ousa entrar.</p>
+      <p style="color:#ff0000;font-weight: bold">Cultura e Sobrevivência:</p>
+      <p>Vampiros vem à terra surgindo do chão, como se tivessem finalmente escapado do inferno, um esquadrão é designado a sondar Sevenie, onde os espíritos que reecontram a luz da vida normalmente surgem já que nunca se sabe quando uma nova alma carmesim consiga escapar da morte. Alguns preferem viver entre os humanos que de alguma forma conseguem escapar de Incrilith, e então excluídos dos olhos de D.</p>
+      <p>Existe um grupo de vampiros que são escolhidos a dedo para serem da realeza, estes têm acesso ao mais alto andar de Tiamatia, onde os segredos estão guardados sobre seus antepassados e aquele cujo se auto intitulou Salvador. O Castelo de modo geral funciona como um ninho, quanto menor seu andar mais desorganizado e lotado com vampiros de classes mais baixas, já ao subir aqueles que conseguem ser mais “civilizados” se esforçam a mudar e seguir regras de conduta para controlar sua sede e combater a fome escassa.</p>
+      <p>Conseguem manipular ambos os aspectos do mantra, porém os mesmos não têm essa prática bem definida e apenas alguns realmente encontram seu verdadeiro potencial. Em contrapartida sua maneira de lidar com os problemas ao redor está na Hemomancia, a capacidade de moldar seu próprio sangue de acordo com a vontade de seu espírito.</p>
+      <p>Aqueles da realeza formam grupos de treinamento para aprimorar essa habilidade, enquanto os que se tornam caçadores precisam ir atrás de alimento para a colônia, e a maneira mais eficaz de fazer isso é com animais e até mesmo galvans, os quais se recusam a oferecer um estoque seguro e pacífico de sangue.</p>
+      <p>A caça aos galvans para obter sangue pode levar a conflitos e a um ciclo de hostilidade entre as raças. Além disso, eles podem ver os vampiros como criaturas perigosas e predatórias, criando um clima de desconfiança. A relação entre a realeza e os caçadores pode ser ambígua. Enquanto os caçadores fornecem sangue vital para a colônia, eles também estão em risco constante e são frequentemente submetidos a situações perigosas. Pode haver tensões entre aqueles que lideram e aqueles que se arriscam nas missões de caça.</p>
+      <p>Os vampiros enfrentam não apenas os desafios de sua própria natureza, mas também ameaças externas. A hostilidade de outras raças, como os Shivers e os Biodúnyas predadores, coloca constantemente os vampiros em situações de perigo. Eles devem estar vigilantes e preparados para se defenderem, sendo assim, apenas vampiros são permitidos em Tiamatia.</p>
+      <p style="color:#ff0000;font-weight: bold">Aparência e aspectos biológicos:</p>
+      <p>Ao nascerem, eles tem uma pele morena ou cinza claro, orelhas de ponta fina e alongada, olhos de esclera vermelha, pupila e íris inteiramente brancas e asas (de início não funcionam) que também servem de braços, com mãos e dedos alongados e afiados, seu cabelo pode ter diversos tons escuros. Sua altura varia de 1 a 4 metros de acordo com sua idade. Não morrem por velhice. Ao crescerem e quanto mais amadurecem, sua pele se torna mais escura e acinzentada, deixando seus tons vivos para trás e adicionando uma camada de escamas, suas asas quanto mais escamosas mais conseguem lidar com o vôo e passam a desprender-se dos braços.</p>
+      <p style="color:#ff0000;font-weight: bold">Atributos:<br>
+        <span style="color:#ff0000">Dados de vida: 18 (3d6 para cada classe posterior)</span><br>
+        <span style="color:#4a86e8">Sanidade: 6</span><br>
+        <span style="color:#ff00ff">3 Pontos de Incremento</span>
+      </p>
+      <h2 style="color:#ff0000;font-weight: bold">Hemomancia:</h2>
+      <p style="color:#ff0000">Seu dom natural de controlar o sangue permite todos os vampiros a se armarem contra as ameaças. É um tipo de magia que não depende da sanidade, já que o sangue de vampiro uma vez mergulhou no mar de mantra e escapou de lá. Seu nível é baseado em quantos espíritos de vítimas o vampiro já se alimentou. Além de ser incapaz de manipular polus ao atingir o nível 2.<br><br>Nível 1: (3 Vítimas) Vampiros conseguem extrair 6 pontos de vida para realizar um ataque rápido com lâminas de sangue de acerto garantido (2d4 de dano), ao causar mais de 6 pontos de vida do alvo seus pontos gastos são restituídos.<br><br>Nível 2: (6 Vítimas) Ao extrair 10 pontos de vida, o próximo alvo que você morder se tornará sua marionete de sangue, a qual poderá realizar ataques para você (1d4 + mod. de Corpo da marionete) e também servir de escudo, caso o alvo morra ele não conta para progressão de Hemomancia.<br><br>Nível 3: (15 Vítimas) Drena 20 pontos de vida e faz com que seu corpo adquira uma forma dracônica com: 5 pontos de vida, 15 de Resistência e 3d6 de dano com acerto garantido. Ao abater alvos nessa forma sua resistência diminui em 3 pontos e ganha 5 pontos de vida adicional<br><br>Nível Personalizado: Cada vez que o personagem atingir o número de vítimas para um novo nível de hemomancia, ele pode escolher descartar esse nível e criar sua própria, com a autorização e supervisão do mestre. Sempre mantenha o custo de vida do nível descartado.</p><br>
+      <p style="color:#ff0000;font-weight: bold">Habilidades:</p><br>
+      <p style="color:#00ff00;font-weight: bold">Sentidos Aguçados:<br>
+        <span style="color: #fff;font-weight: 100">Vampiros conseguem detectar ruídos a longas distâncias e tem uma visão quase perfeita a longo alcance. Ganham +2 em testes de Instinto.</span>
+      </p>
+      <p style="color:#00ff00;font-weight: bold">Linhagem Dracônica:<br>
+        <span style="color: #fff;font-weight: 100">São extremamente materialistas e protetores, sendo assim recebem +2 em todos os dados (exceto dano) quando se trata de cuidar de algo ou alguém que tenha fortes relações.</span>
+      </p>
+      <p style="color:#ff0000;font-weight: bold">Sede de sangue:<br>
+        <span style="color: #fff;font-weight: 100">Quando uma criatura começa a sangrar perto do vampiro ele precisa fazer um teste de Mente, caso falhe ele perderá 2 pontos de sanidade. Se ele morder o alvo, os pontos são recuperados.</span>
+      </p>
+      <p style="color:#ff0000;font-weight: bold">Fotossensíveis:<br>
+        <span style="color: #fff;font-weight: 100">Durante o dia o vampiro recebe -1 em todos os dados. Se ficar exposto diretamente ao sol ele receberá 1d4 de dano por turno.</span>
+      </p>
+      <br><br>
+      <h2 style="font-weight: bold; font-style:italic">Biodúnyas</h2>
+       <p style="color:#666666">Ludvig Forssell - BB's Theme</p>
+       <div id="player3"></div>
+      <p style="color:#38761d;font-weight: bold">Origem:</p>
+      <p>Essas criaturas tomam forma da fauna e flora que um dia existiu em Exolith, desde mamíferos, aves, peixes, insetos, fungos, plantas, répteis e anfíbios. Agora se proliferam por Incrilith como se fosse seu lar, vivem se adaptando às regiões perigosas, seu maior local de habitat é a floresta Magilith onde todo o tipo de criatura diferente é encontrada.<br>Existem de acordo com a vontade do mantra com seu instinto de sobrevivência sendo sua maior força, compõem a natureza onde quer que você explore nesse plano espiritual.</p>
+      <p>Quando um biodúnya passa tempo demais com criaturas humanóides e inteligentes como as outras raças, tendem a evoluir e se tornarem inteligentes também, criando assim os mistos entre sua espécie anterior adicionado o aspecto humanóide e inteligente, como por exemplo: Se um vampiro passa a se aproximar de um biodúnya morcego e o mesmo passa a observar e conviver com esse vampiro, seu corpo irá evoluir em uma forma de morcego humanoide muito similar ao de seu dono, ganhando a habilidade de falar e pensar como o mesmo. Estes são chamados de biodúnya falante.</p>
+      <p style="color:#38761d;font-weight: bold">Ecossistema e Vivência:</p>
+      <p>Aqueles que se apresentam úteis podem muitas vezes acabarem sendo animais ou plantas domésticos e até mesmo de transporte ou carga. Os biodúnyas falantes que se adaptaram e não se tornam hostis têm o direito de ingressar a Gama, dando início assim a sua serventia ao reino e iniciação ao mantra.</p>
+      <p>Anteriormente essa raça não manipula de fato a magia, ela apenas auxilia em suas ações, usam minus inconscientemente para atacar, já que é o aspecto mais forte para isso, enquanto que ao se defenderem, o polus é mais eficaz então é instintivamente usado.</p>
+      <p>É por isso que essa raça consegue controlar ambos os aspectos. Aqueles que se tornam falantes e não procuram a academia, constroem sociedades em Magilith, tendo o maior aspecto selvagem possível. É predominante sua natureza inicial, predadores caçam e presas se escondem.</p>
+      <p style="color:#38761d;font-weight: bold">Aparência e aspectos biológicos:</p>
+      <p>Os biodúnyas possuem um núcleo de mantra que serve como coração, o resto de seu corpo é formado por energia pura e por conta disso nunca podem sair de Incrilith sem o domínio certo do mantra. Suas formas podem ou não ter a ver com uma espécie de planta ou animal que exista, sendo assim tem possibilidades infinitas e tamanhos variados, porém sua forma falante tem um mínimo de 0,5 metros e máximo de 4 metros, além de que sua forma anterior continua predominando. Por exemplo, se um biodúnya árvore se tornar um biodúnya falante, seu corpo humanoide essencialmente terá galhos e folhas, seja da forma que o jogador preferir. Seus núcleos são o único ponto vital, enquanto ele estiver intacto a criatura ainda viverá.</p>
+      <p style="color:#38761d;font-weight: bold">Atributos:<br>
+        <span style="color:#00ff00">Dados de vida:<br> Flora: 8 iniciais (2d4 classes posteriores)<br>Fauna: 16 iniciais (4d4 classes posteriores)</span><br>
+        <span style="color:#4a86e8">Sanidade:<br>Flora: 10<br>Fauna: 4</span><br>
+        <span style="color:#ff00ff">3 Pontos de Incremento</span>
+      </p>
+      <p style="color:#38761d;font-weight: bold">Habilidades:</p><br>
+      <p style="color:#00ff00;font-weight: bold">Regeneração:<br>
+        <span style="color: #fff;font-weight: 100">Ao receberem dano e seu núcleo permanecer intacto, após um descanso curto já estão totalmente regenerados.</span>
+      </p>
+      <p style="color:#00ff00;font-weight: bold">Dom do Ambiente:<br>
+        <span style="color: #fff;font-weight: 100">Sempre conhecem o local em que estão por estarem conectados com o mantra, nunca ficam perdidos e recebem +1 em instinto e lidar com criaturas.</span>
+      </p>
+      <p style="color:#00ff00;font-weight: bold">Chamado de espécie:<br>
+        <span style="color: #fff;font-weight: 100">Uma vez por descanso longo pode tentar invocar a espécie a qual seu núcleo pertence, seja outras plantas ou animais. Estes irão te auxiliar em tarefas, combate ou até buscar informações.</span>
+      </p>
+      <p style="color:#9900ff;font-weight: bold">Ponto Fraco:<br>
+        <span style="color: #fff;font-weight: 100">Ao ficar com 0 pontos de vida, seu corpo se dissipa e o núcleo é exposto. Você fica nessa forma por um dia inteiro. Caso sofra qualquer ataque sua vida é reduzida permanentemente até chegar a 0 e causar sua morte. Caso um golpe seja desferido no seu núcleo antes de estar exposto, faça um teste de corpo, se falhar o núcleo é exposto imediatamente. (É importante o jogador deixar alguma anotação de onde seu núcleo fica guardado)</span>
+      </p>
+      <p style="color:#ff0000;font-weight: bold">Fraqueza Natural:<br>
+        <span style="color: #fff;font-weight: 100">Cada espécie de biodúnya possui uma fraqueza ao qual sempre receberá +2 de dano ao sofrer daquilo. Por exemplo, árvores tem fraqueza a fogo, e espécies de animais frágeis têm um predador natural.</span>
+      </p>
+      <br><br>
+      <h2 style="font-weight: bold; font-style:italic">Crisoldúnyas</h2>
+       <p style="color:#666666">Steampianist - Secrets of Wysteria</p>
+
+      <div id="player4"></div>
+      <p style="color:#f1c232;font-weight: bold">Origem:</p>
+      <p>Quando um biodúnya morre, seu núcleo é desligado completamente, o qual galvans curiosos usam este objeto morto como material de estudo, com o tempo descobriram que podem ser reativados e usados como uma bateria. Tiveram sucesso e então uma raça nova surgiu, os Crisoldúnyas, robôs autômatos que simulam as mais diversas tarefas dentro de Gama, por ter uma conexão direta com seu núcleo biodúnya a maioria desenvolve consciência própria, com vagas lembranças da vida de seu antepassado selvagem.<br>Alguns perdem o controle, outros conseguem lidar com o choque, e então submetidos ao sistema da Academia passam a manipular os aspectos do mantra.</p>
+      <p>Os Crisoldúnyas, nascidos do casulo inanimado dos biodúnyas, representam uma simbiose única entre a tecnologia e a essência da natureza. Originários do interesse científico dos galvans e da habilidade de reanimar os núcleos desativados dos biodúnyas, esses autômatos agora desempenham um papel crucial na sociedade de Gama.</p>
+      <p>Inicialmente, os Crisoldúnyas eram vistos como meros autômatos, programados para realizar tarefas específicas. No entanto, ao longo do tempo, os cientistas e estudiosos perceberam que os núcleos dos biodúnyas conferiam a esses autômatos uma espécie de consciência fragmentada. Memórias vagas de suas vidas anteriores, instintos naturais e emoções começaram a surgir nos Crisoldúnyas, tornando-os muito mais do que simples robôs.</p>
+      <p style="color:#f1c232;font-weight: bold">Sobrevivência:</p>
+      <p>A maior parte desses autômatos possuem um dono a qual devem servir, e em sua maioria são galvans, sendo assim seguem a vontade dele. Aqueles que se rebelam fogem do reino e vão parar em Yamagon, onde está o QG do Foco Mecânico e abrigo para Crisoldúnyas sem um dono ou propósito.</p>
+      <p>Os que se submetem se tornam máquinas de combate e operários de tarefas repetitivas para qualquer outra raça viva. Aqueles que se esforçam demais e acabam usando uma taxa de mantra excessiva de seu núcleo conseguem despertar seu biodúnya interior, se tornando capaz de oscilar entre mecânico e biológico e chamados de Crisoldúnya desperto. Alguns destes tentam voltar a sua vida selvagem original, outros são mais mórbidos e usam esse núcleo a fim de se aprimorarem cada vez mais.</p>
+      <p>No entanto, nem todos os Crisoldúnyas conseguiram lidar bem com a fusão de sua consciência e a manipulação do mantra. Surgiram divisões na sociedade Crisoldúnya, com alguns rejeitando suas origens biodúnyas e buscando uma existência puramente tecnológica, enquanto outros se apegavam às suas memórias e instintos orgânicos. Essas divisões resultaram em tensões internas, e a sociedade Crisoldúnya teve que enfrentar desafios complexos de coexistência.</p>
+      <p style="color:#f1c232;font-weight: bold">Aparência e aspectos anatômicos:</p>
+      <p>São robôs humanóides das mais diversas formas, sempre mantendo o conceito base de meras máquinas. Aqueles que foram programados para servir de uso doméstico possuem uma aparência mais confundível com galvans, enquanto outros não possuem nenhuma semelhança biológica, com rodas esteiras e garras metálicas. Aqueles que se despertaram possuem aspectos de seu antigo biodúnya seja raízes de árvores em seu chassi metálico ou sintético a até músculos e ossos crescendo e formando uma espécie aterrorizante de máquina.</p>
+      <h2 style="color:#f1c232;font-weight: bold">Despertar:</h2>
+      <p style="color:#f1c232">Escolha 1 Habilidade de Biodúnya para adicionar aqui, além disso recebe 2 Pontos de Incremento. Só pode despertar ao atingir a Classe B. Recebe a Perícia Lidar com criaturas.<br>Adicione uma Habilidade de Espírito extra com base no seu núcleo biodúnya.</p><br>
+      <p style="color:#38761d;font-weight: bold">Atributos:<br>
+      <span style="color:#fff">Escolha de acordo com o seu tipo de crisoldúnya.</span></p>
+      <br>
+      <p style="color:#f1c232">Operário: +2 Mente<br>
+        <span style="color:#00ff00">Dados de vida: 12 (2d6 para cada classe posterior)</span><br>
+        <span style="color:#4a86e8">Sanidade: 8</span><br>
+        <span style="color:#ff00ff">2 Pontos de Incremento</span>
+      </p>
+      <p style="color:#f1c232">Doméstico: +2 Carisma<br>
+        <span style="color:#00ff00">Dados de vida: 10 (2d4+2 para cada classe posterior)</span><br>
+        <span style="color:#4a86e8">Sanidade: 10</span><br>
+        <span style="color:#ff00ff">4 Pontos de Incremento</span>
+      </p>
+      <p style="color:#f1c232">Combate: -4 Mente -4 Carisma<br>
+        <span style="color:#00ff00">Dados de vida: 18 (3d6 para cada classe posterior)</span><br>
+        <span style="color:#4a86e8">Sanidade: 14</span><br>
+        <span style="color:#ff00ff">1 Pontos de Incremento</span>
+      </p>
+      <p style="color:#f1c232;font-weight: bold">Habilidades:</p><br>
+      <p style="color:#00ff00;font-weight: bold">Aprimoramento Improvisado:<br>
+        <span style="color: #fff;font-weight: 100">Ao dedicarem um tempo para aprimorar seu chassi, o crisoldúnya consegue +2 em algum atributo base (Corpo, Mente, Destreza, Espírito ou Carisma) até que use um dado com aquele atributo. O aprimoramento precisa ser feito a partir de algo que faça sentido para aquele atributo, por exemplo espinhos para corpo, antena para mente, mira para destreza, vai da criatividade do jogador. Só pode ser usado uma vez por dia.</span>
+      </p>
+      <p style="color:#00ff00;font-weight: bold">Rede Neural:<br>
+        <span style="color: #fff;font-weight: 100">Ao drenar 50% da sanidade máxima conseguem se comunicar com outros crisoldúnya ou qualquer tipo de equipamento de transmissão sem depender de um. Precisam estar na mesma região para funcionar.</span>
+      </p>
+      <p style="color:#00ff00;font-weight: bold">Bateria de Mantra:<br>
+        <span style="color: #fff;font-weight: 100">Sua sanidade é baseada em quanto mantra está armazenado na sua bateria, sendo assim todos os efeitos de perda de sanidade tem efeitos diferentes (exceto 0%):<br>50% - Recebe -2 em Destreza e sua fala começa a ficar lenta.<br>25% - Seu corpo se mexe lentamente a ponto em que qualquer teste que exija movimento você automaticamente falha.<br><br>Sendo assim você consegue voltar a 100% e até atingir 125% temporariamente com descargas elétricas de alta voltagem.<br>Também podem gastar sanidade para recarregar componentes elétricos.
+        </span>
+      </p>
+      <p style="color:#ff0000;font-weight: bold">Dualidade:<br>
+        <span style="color: #fff;font-weight: 100">A dualidade representa a luta interna dos Crisoldúnyas entre suas partes mecânicas e suas lembranças biodúnyas. Isso pode causar conflitos emocionais e decisões difíceis para eles.<br>Sempre que se deparar com sua espécie de biodúnya faça um teste de Mente. Se falhar todos os dados enquanto a espécie estiver presente terão -4.</span>
+      </p>
+      <p style="color:#ff0000;font-weight: bold">Software Hackeável:<br>
+        <span style="color: #fff;font-weight: 100">Os Crisoldúnyas possuem sistemas de software complexos, e isso os torna vulneráveis a hackers ou interferências externas em sua programação. Em situações em que a segurança do sistema do Crisoldúnya é comprometida, o jogador deve fazer um teste de Mente. Se falhar, ficará temporariamente desabilitado ou controlado pelo invasor (a critério do mestre) até que a situação seja resolvida.</span>
+      </p>
+      <br><br>
+      <h2 style="font-weight: bold; font-style:italic">Shivers</h2>
+       <p style="color:#666666">That Happy Child</p>
+
+      <div id="player5"></div>
+      <p style="color:#666666">“Já imaginou como deve ser a morte? Um silêncio, um último suspiro, uma viagem… Para estas criaturas é como se o vazio em seus corações precisasse ser preenchido, com alguma coisa, qualquer coisa. O silêncio gritante que ecoa por suas mentes é incapaz de compreender o prazer da vida, eles querem o calar, nunca desejaram nascer. O mantra os trouxe de volta à terra como punição, mas quem eram? Por que merecem isso?<br>Todos um dia foram galvans, mas os mesmos se recusam de pé junto que um dia se tornarão isso. Os humanos os chamam de assombrações, fantasmas, almas com questões pendentes…”</p>
+      <p style="color:#666666;font-weight: bold">Origem e Natureza:</p>
+      <p>Os Shivers, ou assombrações como são conhecidos por muitos, são criaturas atormentadas que compartilham um passado como galvans. No entanto, após a morte, eles foram submetidos a uma existência sombria e torturante. Enquanto a maioria das almas encontra paz no pós-vida, os Shivers foram amaldiçoados com uma ligação persistente ao mundo dos vivos. Há duas maneiras de um nascer:<br>Quando um galvan morre a alma dele é arrastada no rio de mantra a uma dor eterna e então retornam a Incrilith, procurando a morte novamente.<br>Quando um humano morre por mantra, e então é o tipo mais forte de shiver pois mesmo que acabe morrendo só o conseguirá quando levar consigo a alma de quem o matou na sua vida anterior.</p>
+      <p>A jornada dos Shivers começa após sua morte, quando suas almas são arrastadas por uma correnteza de escuridão e vazio. A dor da morte é amplificada para eles, e essa angústia é o que os mantém ligados ao plano terreno. O mantra, originalmente uma bênção para os galvans, se torna uma maldição para os Shivers, alimentando sua dor e permitindo que eles permaneçam entre os vivos.</p>
+      <p>A existência dos Shivers é marcada por um profundo sentimento de perda e vazio. Eles vagam pela terra em busca de algo que possa preencher o buraco em seus corações, uma busca que nunca é plenamente satisfeita. A incapacidade de sentir alegria ou completude os leva a tentar roubar a vitalidade dos vivos, na esperança de aliviar sua própria agonia.</p>
+      <p>Vivem vagando por Sevenie onde a maioria desses espíritos se encontram, possuem infinitas formas, das mais abstratas e horrendas ao mais fofo macabro. Aquelas que são visivelmente apresentáveis aos galvan acabam sendo resgatados, pois sua agonia e dor constante pode levar alguns a uma simpatia irracional. Estão limitados a manipular Minus.</p>
+      <p style="color:#666666;font-weight: bold">Aparência e aspectos anatômicos:</p>
+      <p>Como dito anteriormente, possuem infinitas formas, sua altura varia de 0,5 a 20 metros.<br>Seus corpos têm tons neutros em sua maioria, como pele branca, roupas cinzas e cabelo preto, mas isso não é regra já que muitos sequer tem pele, roupas ou cabelo. Alguns exemplos de Shivers que os humanos conhecem: Slenderman, Sadako, Hachishakussama, Siren Head, dentre outros. Normalmente seus corpos são mórbidos e não possuem sangue.<br>Vivem eternamente até que alguém os purifique.</p>
+      <h2 style="color:#666666;font-weight: bold">Manifestar:</h2>
+      <p style="color:#666666">Essas criaturas conseguem alternar entre os planos de acordo com sua vontade, isso os permite ficarem invisíveis e intangíveis no mundo dos humanos a custo de 1 ponto de sanidade por turno. Em Incrilith seu estado intangível e invisível consomem 25% da sanidade máxima por turno e só conseguem atravessar camadas finas de parede. Só pode ser usado uma vez a cada descanso longo.</p><br>
+      <p style="color:#666666;font-weight: bold">Atributos:<br>
+        <span style="color:#fff">Considere de acordo com o tamanho de seu Shiver.<br>Pequeno 0,5 a 1,5 metros. Médio 1,5 a 3 metros. Grande +3 metros.</span></p>
         <br>
-        <p style="color:#999999"> “Ao compreender melhor como suas mãos de tinta funcionam, Dave consegue aplicar seus efeitos de habilidade Base a elas além de terem um maior alcance. Também aplicou o aspecto Polus, sendo assim caso elas ataquem sem um efeito de habilidade terão 1d4 de dano, +2 em efeitos de proteger, -3 contra polus e seu acerto terá bônus de 2 (Carisma = 14)”</p>
-        <p>Agora as outras Habilidades C, caso as tenha, se tornam Habilidades Secundárias, que têm o mesmo efeito da Habilidade de Espírito e grande impacto narrativo.</p>
-        <p style="color:#999999">“Dave transforma sua habilidade C “manto de tinta” em uma habilidade secundária que tem o seguinte efeito: Ao cobrir seu corpo com suas mãos de tinta, consegue se camuflar em superfícies de qualquer cor, dando uma vantagem de +3 em furtividade”<br>*Anteriormente a habilidade tinha uma duração, gastava sanidade e tinha o aspecto Polus.</p>
-        <p style="color:#00ffff">Habilidade A e S:<br><span style="color:#434343">Disponível em breve...</span></p>
-        <h2 style="color: #ffff00">Regiões</h2>
-        <p style="color:#434343">Disponível em breve...</p>
-        <h2 style="color: #ffff00">Raças</h2>
-        <p>Toda criatura nasce do Mantra, mas nem todas têm os mesmos privilégios…</p>
-        <p style="color:#434343">(Irei anexar uma música [a maioria vocaloid] que representa emocionalmente cada raça, além de ser por charme é por que em um mundo de sentimentos e sonhos como Incrilith, é essencial neste RPG a inclusão de como lidam com o ambiente.)</p>
-        <p>*Este será o sub-capítulo mais longo e detalhado, se quiser deixar para depois não é uma má ideia.</p>
-        <br><br>
-        <h2 style= "font-weight: bold; font-style:italic">Galvans</h2>
-        <p style="color:#666666">Kikuo - Bem vindo a Pousada Estelar</p>
-        <div id="player"></div>
-
-        <script>
-            var player;
-
-            function onYouTubeIframeAPIReady() {
-                player = new YT.Player('player', {
-                    height: '30%',
-                    width: '30%',
-                    videoId: 'ziI79PBQ5xA',
-                    events: {
-                        'onReady': onPlayerReady,
-                        'onStateChange': onPlayerStateChange
-                    }
-                });
-            }
-
-            function onPlayerReady(event) {
-                event.target.playVideo();
-            }
-
-            function onPlayerStateChange(event) {
-                // Você pode adicionar lógica aqui para lidar com mudanças de estado, como pausar a música quando o vídeo terminar
-            }
-        </script>
-       <p style="color:#9900ff;font-weight: bold">Origem:</p>
-       <P>Estes nasceram do mantra puro, viveram por milênios através das eras… Seus pensamentos positivos abrangem a flor da pele, o desejo de estarem vivos supera qualquer barreira, sua capacidade de sobrevivência os trouxe até a atualidade, onde nascem, crescem, treinam e morrem. No início eram sozinhos, durante essa época sua tecnologia era baseada em magia, com um aspecto bem medieval mas sem a necessidade de armas, apenas alguns atrevidos enxergavam a beleza em artes marciais e treinavam por diversão, dentre eles Chiansyr. Prosperavam e eram alegres, qualquer pensamento ruim era filtrado e descartado, afinal foram criados para a perfeição. Após anos de paz, encontraram a Norogai, o local de descanso do deus do caos, Lemnis. </P>
-       <P>Como seu povo era baseado em fé, as deusas não mantinham contato direto, então o ceticismo de alguns a respeito daquele receptáculo causou uma divisão social entre os que queriam abrir e os que não queriam. Seria um debate justo, até que uma fagulha entrópica atingiu um galvan que o forçou a abrir, mergulhando Exolith em trevas e pedras.</P>
-       <P>Lakrima consegue despertar Chiansyr e por ser experiente em combate acaba o pedindo ajuda contra o deus do caos. Iniciando-se então a Arkwar, travaram uma guerra com os Carmesins. O que aconteceu de fato permanece um mistério e aqueles que sabem se recusam a falar, apenas que quase foram extintos junto com seus rivais, e tiveram que recomeçar sua vida em um novo lugar repleto de monstros.</P>
-       <P>Atualmente estão ao sul de Incrilith. Nascem na Academia, um reino em que cada tecnologia tem sua finalidade, a magia sendo a mais versátil e abrangente, presente em agricultura, medicina, combate, infraestrutura, etc.; Em seguida a eletrônica, tratada como um tabu por alguns, existe para suprir as necessidades automáticas do reino, escavação, construção, e relações nano-mantrais, ferramentas que fundem a magia com equipamentos permitindo qualquer criatura usar magia com o apertar de um gatilho; E por último o Medievalismo, em que é focado totalmente na batalha, com infinitos tipos de armas, imbuídas ou não com a magia.</P>
-       <p style="color:#9900ff;font-weight: bold">Cultura e Vivência:</p>
-       <p>Ao nascer, suas vidas são entregues ao reino, a única liberdade é a de escolher sua vocação. Aqueles que decidem uma Escola selam seu destino à vitória, e aqueles incapazes vão gastar suas vidas na lavoura. Dentre a população, aproximadamente 400 são crianças e pessoas debilitadas, 300 “camponeses”, 300 guerreiros e 120 Alunos.</p>
-        <p>Passam suas vidas inteiras trabalhando, isso causa certa exaustão mental e uma pressão social inevitável da ameaça que os cerca. Alguns preferem manter o otimismo, já que sua magia depende disso, outros são extremistas e acreditam que isso nunca terá um fim se não caçarem o mal pela raiz. A jornada de um jovem “sucedido” é a de crescerem fortes e saudáveis até os 12 anos, logo então precisam escolher uma Escola, deixar seus pais, e ver em qual Foco se encaixam.</p>
-        <p>Após isso e dependendo de sua área, avançam de classe de acordo com seus maiores feitos e com a aprovação de seu professor que será um classe S. Ao crescerem e alcançarem seus professores, eles irão escolher se continuarão os treinamentos, serem treinados pelos Líderes de Foco e até mesmo por Chiansyr, ou se tornarem guerreiros formados, que tem praticamente sua vida feita e selada.</p>
-        <p>Embora em constante batalha, os galvans tem uma sociedade interior “tranquila”, os alunos e guerreiros recebem recursos gratuitamente dos camponeses, que também trocam entre si. Há exceções de rebeldes, mas estes procuram abrigo fora do reino.</p>
-        <br>
-        <p>Cada Foco exerce uma função no reino, os Selo cuidam da barreira protetora e purificação de insanidade causada por fobias, os Elementais são flexíveis e estão por toda parte, os Animais normalmente em linhas de frente, os Naturais seguem a filosofia da paz e atuam na medicina e até mesmo alquimia, os Caçadores são reservados e preferem agir em missões de espionagem e assassinato fora do reino, Mecânicos em aprimoramentos de todas as áreas mas seu QG está fora do reino por um tabu e preconceito conservador, os Suryas passam sua vida treinando a mira e atirando em todo tipo de monstro para enfrentar o Breu, e por último mas não menos importante temos os Marciais, líderes das linhas de frente que com muito rancor dificilmente aceitam ajuda dos outros Focos.</p>
-        <p>Sua interação com as outras raças é de modo geral violenta, tudo em prol da proteção do reino, seja um vampiro ou qualquer criatura, apresentou hostilidade e será morto na hora. Não tem aliados e inimigos concretos, apenas contra-atacam e aceitam aqueles que querem ajudar <span style="color:#434343">(Caçadores ficam de escolta em tempo integral para garantir a segurança dos cidadãos nesse caso).</span></p>
-        <p style="color:#9900ff;font-weight: bold">Aparência e aspectos biológicos:</p>
-        <p>Apesar de sua semelhança com os humanos, alguns traços e detalhes podem diferir essa raça. Naturalmente, os olhos podem ser de qualquer cor exceto vermelho, seus cabelos podem ser de qualquer cor, a média de sua altura varia de 1,5 até 2,5 metros, possuem qualquer cor de pele humana, com algumas exceções como tons de azul e tons de cinza. Se existisse um galvan em meio a humanos provavelmente passaria despercebido.</p>
-        <p>Suas necessidades são as mesmas que a de humanos, porém sua saúde é duas vezes mais fácil de manter e por isso vivem até no máximo 200 anos. Conseguem sobreviver por muito mais tempo sem suprir suas necessidades básicas, o mantra serve de nutriente emergencial assim como a gordura humana, mas isso causa insanidade.</p>
-        <br>
-        <p style="color:#9900ff;font-weight: bold">Atributos:<br>
-          <span style="color:#00ff00">Dados de vida: 12 (2d6 para cada classe posterior)</span><br>
-          <span style="color:#4a86e8">Sanidade: 10</span><br>
-          <span style="color:#ff00ff">3 Pontos de Incremento</span>
+        <p style="color:#666666">Pequeno:<br>
+          <span style="color:#00ff00">Dados de vida: 8 (2d4 para cada classe posterior)</span><br>
+          <span style="color:#4a86e8">Sanidade: 8</span><br>
+          <span style="color:#ff00ff">4 Pontos de Incremento</span>
         </p>
-        <p style="color:#9900ff;font-weight: bold">Habilidades:</p><br>
-        <p style="color:#00ff00">Alta Adaptabilidade:</p>
+        <p style="color:#666666">Médio:<br>
+          <span style="color:#00ff00">Dados de vida: 12 (3d4 para cada classe posterior)</span><br>
+          <span style="color:#4a86e8">Sanidade: 6</span><br>
+          <span style="color:#ff00ff">2 Pontos de Incremento</span>
+        </p>
+        <p style="color:#666666">Grande:<br>
+          <span style="color:#00ff00">Dados de vida: 20 (5d4 para cada classe posterior)</span><br>
+          <span style="color:#4a86e8">Sanidade: 4</span><br>
+          <span style="color:#ff00ff">1 Pontos de Incremento</span>
+        </p>
+        <p style="color:#666666;font-weight: bold">Habilidades:</p><br>
+      <p style="color:#999999;font-weight: bold">Toque Sombrio:<br>
+        <span style="color: #fff;font-weight: 100">Ao tocar em uma criatura, causa 1d4 de dano e recupera sanidade com base no dano causado. Sempre que uma criatura estiver com o nível de sanidade decaído recebe +3 em dano (não inclui essa habilidade) por nível decaído.</span>
+      </p>
+      <p style="color:#999999;font-weight: bold">Ligação com a Escuridão:<br>
+        <span style="color: #fff;font-weight: 100">Em locais com iluminação baixa recebe +2 em todos os dados e o dobro em Intimidação.<br>Caso esteja em locais iluminados recebe -2 ao intimidar.</span>
+      </p>
+      <p style="color:#999999;font-weight: bold">Transformação Umbral:<br>
+        <span style="color: #fff;font-weight: 100">Se você conhecer a fobia da criatura alvo, pode forçá-la a rolar um dado de Mente, se ela falhar você pode tomar a forma da fobia e reduzir em um nível sua sanidade (incapaz de chegar a 0%)</span>
+      </p>
+      <p style="color:#ff0000;font-weight: bold">Vazio Encarnado:<br>
+        <span style="color: #fff;font-weight: 100">Cada nível de sanidade decaído reduz também sua vida máxima na mesma porcentagem.<br>Não restaura sanidade por meios comuns e só regenera a vida quando se alimenta de carne (1d4 por mordida).</span>
+      </p>
+      <p style="color:#9900ff;font-weight: bold">Assombração:<br>
+        <span style="color: #fff;font-weight: 100">Quando sua vida chegar a zero você não morre a não ser que alguma criatura realize a ação Purificar. Em contrapartida, qualquer criatura que realize essa ação causa 1d6 de dano em você.</span>
+      </p>
+      <br><br>
+      <h2 style="font-weight: bold; font-style:italic">Kýttaros</h2>
+       <p style="color:#666666">Disponível em breve...</p>
+      <br><br>
+      <h2 style="font-weight: bold; font-style:italic">Humanos</h2>
+       <p style="color:#666666">Disponível em breve...</p>
+      <!-- /FIM CAPITULO 2 -->
+      <h1>Capítulo 3: Criação de personagem</h1> <!-- INÍCIO CAPÍTULO 3-->
+      <h2>1. Escolha uma raça:</h2>
+      <p style="margin-top: 0">Sua raça é uma escolha importante de como seu corpo é biologicamente preparado para lidar com certas situações, além de fornecerem atributos base, aqui vai uma lista de raças disponíveis atualmente em Incrilith:<br>-Galvans<br>-Vampiros<br>-Biodúnyas<br>-Crisoldúnya<br>-Shivers</p>
+      <h2>2. Escolha uma Escola:</h2>
+      <p>Em Gama existem três escolas principais nas quais os alunos precisam decidir passar o resto de suas vidas, onde cada uma exige um tipo de competência diferente e uma área de atuação específica em nosso reino, além de proporcionar vantagens àqueles que se dispõem.</p>
+      <h2 style="color:#9900ff">- Escola do Combate:</h2>
+      <p>Aqueles corajosos que escolherem esta Escola terão seu destino selado em linhas de frente, zonas de conflito e em expedições perigosas para fora de Gama. Suas habilidades de luta serão exploradas até que você se torne um guerreiro orgulhoso e reconhecido, suas capacidades físicas são essenciais para nós.</p>
+      <p style="color:#ff00ff">+12 pontos de vida iniciais, +3 resistência, +1 Destreza, +1 Corpo, acesso a armas mágicas e físicas, passe livre para entrar e sair do reino, independência de mantra.<br>Maestria em armas: Escolha uma arma para ser proficiente.<br>- Espadas (d6): +2 Corpo<br>- Machados/Martelos de Guerra(d8): -2 Destreza<br>- Lanças (2d4): +2 Destreza<br>- Garras/Adagas (2d4): -2 Corpo +2 Destreza<br>- Nenhum: +1 Incremento, +1 Resistência, 2d4 dano desarmado ou 1d10.<br>- Personalizada: +1 Incremento, +1 Status dependendo do Dado a sua escolha (Conversar com o mestre)</p>
+      <br>
+      <h2 style="color:#9900ff">- Escola da Inteligência:</h2>
+      <p>Atuando nos bastidores, esta escola se concentra em aprimorar Gama, pesquisar tecnologias, construir novas armas e ampliar a vivência e conforto para todos os cidadãos. Com um treinamento definido e concreto, habilidades ofensivas não são interessantes para nós, e sim as intelectuais, racionais e criativas.</p>
+      <p style="color:#ff00ff">+6 pontos de vida iniciais, +3 pontos de sanidade iniciais, +1 Mente, -2 Corpo, acesso a equipamentos de pesquisa e diversos materiais, Técnicas de fabricação, dependência de mantra apenas antes do combate.<br>Mestre Inventor: Escolha um equipamento para ser proficiente em uma vez por dia poder construir com urgência:<br>- Arma de fogo: 1d2 +2 por raridade de material, +2 Destreza<br>- Ferramentas medicinais: cura 1d2 +2 por raridade de material, +2 Carisma<br>- Bombas: Seja para abrir portas trancadas (1d10), armadilhas (2d6) ou fins furtivos (+3 em testes de furtividade)<br>- Robôs: Ajudantes autônomos capazes de realizar uma única tarefa específica dentre: Andar, Atacar, Falar, Interagir, Isca.<br>- Ferramentas diversificadas: +3 Na rolagem de dados para o teste em que a ferramenta é útil.</p>
+      <br>
+      <h2 style="color:#9900ff">- Escola do Mantra:</h2>
+      <p>Uma escola destinada àqueles com força de vontade e capacidades inimagináveis de controle do Mantra, estes magos são dedicados a transformar o mundo da maneira que seus corações desejarem, enxergando a beleza que existe em cada ser e sentimento, seja ele bom ou ruim. Sua área de atuação é a mais versátil, então sinta-se livre para escolher o campo de batalha, retaguarda ou até mesmo aprimoramento da Academia.</p>
+      <p style="color:#ff00ff">+4 pontos de vida inicial, +4 pontos de sanidade inicial, acesso a fontes mantrais, +1 Espírito, Dependência total de Mantra. Escolha uma das seguintes especializações:<br>Ofensivo: recebe +2 de acerto e dano em suas habilidades ofensivas<br>Curandeiro: dobra o custo de sanidade e triplica o valor de cura<br>Disparador: suas habilidades que não forem ofensivas recebem acerto garantido se forem deferidos no alcance predeterminado >Corpo a corpo ou >Longas distâncias.<br>Caótico: Para cada nível de sanidade decaído reduza em 1 o custo de habilidade.</p>
+      <h2>3. Tenha um Foco:</h2>
+      <p>Toda criatura viva neste plano espiritual tem uma forma de emanar seu Mantra, seja com um guardião animal, símbolos, um objeto, arma, de seu próprio corpo ou apenas geração espontânea. Essa maneira de manifestar é a chave para aprender a controlar, cada foco te auxilia a otimizar ao máximo suas capacidades mágicas. Cada Sub-escola contém um professor líder, benefícios, malefícios e treinamento para níveis posteriores. Assim como sua escola, não é possível trocar de Foco durante toda a sua vida.<br><span style="color:#ff00ff">Seu Foco também modifica seus atributos base e adiciona perícias!</span></p>
+      <p>Conforme você cumpre missões, conquista grandes feitos e prova sua capacidade, se tornará capaz de avançar sua Classe Escolar, você adquirirá habilidades cada vez mais poderosas e uma agência destacável dos outros alunos.<br>Cada Classe Escolar proporciona um bônus de classe que é adicionado aos modificadores em que seu personagem houver uma perícia.</p>
+      <p style="color:#ff9900">Classe C: <span style="color:#9900ff">+1</span><br>Classe B: <span style="color:#9900ff">+2</span><br>Classe A: <span style="color:#9900ff">+3</span><br>Classe S: <span style="color:#9900ff">+4</span></p>
 
-        
+      <h2 style="color:#00ffff">- Foco do Selo:</h2> <!-- INICIO FOCO DO SELO-->
+      <p style="color:#00ffff; font-weight: bold">Líder: <span style="color:#fff">Helena Shiroi (SS)</span></p>
+      <p>Aqueles que manifestam sua energia através de símbolos, escrituras e selos é mais que bem vindo neste foco, somos capazes de guardar feitiços, transcrevê-los, purificar e anular.<br>Ganha Perícia em Selo e escolha mais uma entre:</p>
+      <ul>
+        <li>Persuasão (Carisma)</li>
+        <li>Prestidigitação (Destreza)</li>
+        <li>Medicina e Natureza (Mente)</li>
+        <li>Ilusão (Espírito/Carisma)</li>
+        <li>Encorajar (Carisma)</li>
+      </ul><br>
+      <ul id="rosinha">
+        <li>Corpo: -1</li>
+        <li>Destreza: +2</li>
+        <li>Mente: 0</li>
+        <li>Espírito: +2</li>
+        <li>Carisma: +1</li>
+      </ul>
+      <br>
+      <p><span style="color:#ff00ff">Classe C: </span><span style="color:#00ff00">Novato dos Símbolos: </span>Concede a habilidade de criar, interpretar símbolos mágicos e os inscrever em superfícies para ativar efeitos mágicos, esses símbolos têm 1d10+Selo de resistência até que possam ser desativados.<br>O Nível de acerto do feitiço inscrito é 8+Selo do conjurador no momento que foi inscrito, um adicional de +4 caso o alvo não tenha conhecimento sobre o selo.</p>
+      <p><span style="color:#ff00ff">Classe B: </span></p>
+      <p><span style="color:#ff00ff">Classe A: </span></p>
+      <p><span style="color:#ff00ff">Classe S: </span></p><br>
+      <!-- FIM FOCO DO SELO -->
+      <h2 style="color:#00ffff">- Foco Elemental:</h2> <!-- INICIO FOCO ELEMENTAL -->
+      <p style="color:#00ffff; font-weight: bold">Líder: <span style="color:#fff">Rayzel (SS)</span></p>
+      <p>Os elementos moldam tudo ao nosso redor, controlar isso é a chave para desencadear o nosso verdadeiro Mantra, conosco você saberá como dominar essa chama, gelo ou seja lá o que você tiver dentro de si.<br>Ganha Perícia em Conjuração e escolha mais uma entre:</p>
+      <ul>
+        <li>Selo (Espírito)</li>
+        <li>Coragem (Mente/Corpo)</li>
+        <li>Medicina e Natureza (Mente)</li>
+        <li>Investigação (Mente)</li>
+        <li>Ilusão (Espírito/Carisma)</li>
+      </ul><br>
+      <ul id="rosinha">
+        <li>Corpo: +1</li>
+        <li>Destreza: -1</li>
+        <li>Mente: +2</li>
+        <li>Espírito: +2</li>
+        <li>Carisma: 0</li>
+      </ul>
+      <br>
+      <p><span style="color:#ff00ff">Classe C: </span><span style="color:#00ff00">Sinergia Primordial: </span>Concede a capacidade de criar elementos a partir de Mantra em uma forma que conheça. Com base no seu Espírito inicial, alguns atributos tendem a ser mais propensos ao aprimoramento inato. Escolha uma especialização dentre:<br><br><span style="color:#ff0000">Elemento Natural (ex. fogo, água, ar, etc.):</span>  Podem ser usados para criar uma Habilidade C temporária.<br><span style="color:#ff0000">Elemento Metafísico (ex. sentimentos, sonho, realidade):</span> Perícia em Ilusões e Persuasão. Ao causar dano permite converter metade em dano na sanidade do alvo.<br><span style="color:#ff0000">Elemento Abstrato (ex. energia, magia pura): +1 em todos os atributos.</span>Seu Espírito pode ser transformado em mantra puro e vice-versa.</p>
+      <p><span style="color:#ff00ff">Classe B: </span></p>
+      <p><span style="color:#ff00ff">Classe A: </span></p>
+      <p><span style="color:#ff00ff">Classe S: </span></p><br>
+      <h2 style="color:#00ffff">- Foco Animal:</h2> <!-- INICIO FOCO ANIMAL-->
+      <p style="color:#00ffff; font-weight: bold">Líder: <span style="color:#fff">Sulong (SS)</span></p>
+      <p>Se seu despertar veio junto com a de um guardião animal, aqui você será capaz de quebrar seu limite e ajudar seu companheiro em uma via de mão dupla. Quanto mais você melhora sua relação com ele, mais sua força é liberada.<br>Ganha Perícia em Instinto e escolha mais uma entre:</p>
+      <ul>
+        <li>Coragem (Mente/Corpo)</li>
+        <li>Intimidação (Carisma/Corpo)</li>
+        <li>Furtividade (Destreza)</li>
+        <li>Lidar com criaturas (Carisma)</li>
+        <li>Acrobacia (Destreza)</li>
+        <li>Atletismo (Corpo)</li>
+      </ul><br>
+      <ul id="rosinha">
+        <li>Corpo: +2</li>
+        <li>Destreza: +2</li>
+        <li>Mente: -1</li>
+        <li>Espírito: +2</li>
+        <li>Carisma: 0</li>
+      </ul>
+      <br>
+      <p><span style="color:#ff00ff">Classe C: </span><span style="color:#00ff00">Elo Guardião: </span>Seu animal acaba de nascer e precisa crescer, quanto maior seu mantra, mais forte ele se torna e mais de seus aspectos você é capaz de usar. Inicialmente uma aura fina pode ser conjurada a fim de representar o guardião, concedendo os benefícios mais simples provenientes da espécie (Ex: Asas fracas que permitem planar, membranas que dão respiração aquática, melhora de músculos, garras e etc.). Seu animal consegue falar, tem metade dos seus pontos de vida e consegue conjurar as suas habilidades. conhecimento sobre o selo.</p>
+      <p><span style="color:#ff00ff">Classe B: </span></p>
+      <p><span style="color:#ff00ff">Classe A: </span></p>
+      <p><span style="color:#ff00ff">Classe S: </span></p><br>
+      <!--FIM FOCO ANIMAL-->
+      <h2 style="color:#00ffff">- Foco Natural:</h2> <!-- INICIO FOCO NATURAL-->
+      <p style="color:#00ffff; font-weight: bold">Líder: <span style="color:#fff">Jörmungandr (SS)</span></p>
+      <p>A Mãe Natureza te chama, criança. A Fauna e a flora respondem ao seu chamado, o ar livre é sua casa, os animais são seu exército, as plantas suas amigas. Seja você tóxico, medicinal ou felpudo, ainda é bem-vindo(a) aqui.<br>Ganha Perícia em Lidar com criaturas e escolha mais uma entre:</p>
+      <ul>
+        <li>Conjuração (Espírito)</li>
+        <li>Persuasão (Carisma)</li>
+        <li>Medicina e Natureza (Mente)</li>
+        <li>Instinto (Corpo)</li>
+        <li>Encorajar (Carisma)</li>
+      </ul><br>
+      <ul id="rosinha">
+        <li>Corpo: -1</li>
+        <li>Destreza: 0</li>
+        <li>Mente: +1</li>
+        <li>Espírito: +2</li>
+        <li>Carisma: +2</li>
+      </ul>
+      <br>
+      <p><span style="color:#ff00ff">Classe C: </span><span style="color:#00ff00">Dom da Comunicação: </span>Você sente a energia de qualquer pensamento de uma criatura não hostil, sabendo discernir sentimentos e até extrair informações sem precisar interagir, além de que elas também te entendem.<br><span style="color:#00ff00">+2 Carisma</span></p>
+      <p><span style="color:#ff00ff">Classe B: </span></p>
+      <p><span style="color:#ff00ff">Classe A: </span></p>
+      <p><span style="color:#ff00ff">Classe S: </span></p><br>
+      <!-- FIM FOCO NATURAL-->
+      <h2 style="color:#00ffff">- Foco do Caçador:</h2> <!-- INICIO FOCO DO CAÇADOR -->
+      <p style="color:#00ffff; font-weight: bold">Líder: <span style="color:#fff">Jay (SS)</span></p>
+      <p>Predadores natos, os caçadores são especializados na arte da furtividade, perseguição e assassinato. Focados em combates rápidos e precisos, estes enfrentam missões perigosas em Sevenie.<br>Ganha Perícia em Conjuração e escolha mais uma entre:</p>
+      <ul>
+        <li>Intimidação (Carisma/Corpo)</li>
+        <li>Persuasão (Carisma)</li>
+        <li>Prestidigitação (Destreza)</li>
+        <li>Investigação (Mente)</li>
+        <li>Instinto (Corpo)</li>
+        <li>Acrobacia (Destreza)</li>
+      </ul><br>
+      <ul id="rosinha">
+        <li>Corpo: 0</li>
+        <li>Destreza: +2</li>
+        <li>Mente: +1</li>
+        <li>Espírito: -1</li>
+        <li>Carisma: +2</li>
+      </ul>
+      <br>
+      <p><span style="color:#ff00ff">Classe C: </span><span style="color:#00ff00">Emoção da Caçada: </span>Ao ser o primeiro a atacar, role um teste de intimidação, se tiver sucesso a presa recebe <span style="color: #ff0000">-2</span> em resistência. Ao eliminar o alvo com sua resistência diminuída recebe<span style="color: #ff0000"> +4</span> ao tentar localizar a mesma espécie no ambiente.</p>
+      <p><span style="color:#ff00ff">Classe B: </span></p>
+      <p><span style="color:#ff00ff">Classe A: </span></p>
+      <p><span style="color:#ff00ff">Classe S: </span></p><br>
+      <!-- FIM FOCO DO CAÇADOR -->
+      <h2 style="color:#00ffff">- Foco da Mecânica:</h2> <!-- INICIO FOCO DA MECÂNICA-->
+      <p style="color:#00ffff; font-weight: bold">Líder: <span style="color:#fff">Sra. Poppet (SS)</span></p>
+      <p>Mestres da engenhosidade, nós somos os artífices de Gama, capazes de criar aparelhos e engenhocas que aprimoram os corpos e adicionam extensões. As invenções servem como um gatilho para a ativação do Mantra.<br>Ganha Perícia em Prestidigitação e escolha mais uma entre:</p>
+      <ul>
+        <li>Conjuração (Espírito)</li>
+        <li>Coragem (Mente/Corpo)</li>
+        <li>Medicina e Natureza (Mente)</li>
+        <li>Investigação (Mente)</li>
+        <li>Acrobacia (Destreza)</li>
+      </ul><br>
+      <ul id="rosinha">
+        <li>Corpo: 0</li>
+        <li>Destreza: +2</li>
+        <li>Mente: +2</li>
+        <li>Espírito: +1</li>
+        <li>Carisma: -1</li>
+      </ul>
+      <br>
+      <p><span style="color:#ff00ff">Classe C: </span><span style="color:#00ff00">Dom da Comunicação: </span>Sua energia canalizada em uma ferramenta faz com que seja possível armazenar Mantra em cápsulas de munições, podendo ser usadas posteriormente. Não consome pontos de sanidade se a munição for recarregada durante um descanso longo.</p>
+      <p><span style="color:#ff00ff">Classe B: </span></p>
+      <p><span style="color:#ff00ff">Classe A: </span></p>
+      <p><span style="color:#ff00ff">Classe S: </span></p><br>
+      <!-- FIM FOCO DA MECÂNICA-->
+      
+      <h2 style="color:#00ffff">- Foco Surya:</h2> <!-- INICIO FOCO SURYA-->
+      <p style="color:#00ffff; font-weight: bold">Líder: <span style="color:#fff">Bro (SS)</span></p>
+      <p>A Luz do espírito é a única maneira de iluminar o Breu, sua coragem inabalável os tornaram mais resistentes à danos mentais, o mantra é expelido através de armas de fogo adaptadas.<br>Ganha Perícia em Prestidigitação e escolha mais uma entre:</p>
+      <ul>
+        <li>Conjuração (Espírito)</li>
+        <li>Furtividade (Destreza)</li>
+        <li>Prestidigitação (Destreza)</li>
+        <li>Investigação (Mente)</li>
+        <li>Instinto (Corpo)</li>
+        <li>Acrobacia (Destreza)</li>
+        <li>Encorajar (Carisma)</li>
+      </ul><br>
+      <ul id="rosinha">
+        <li>Corpo: +2</li>
+        <li>Destreza: +1</li>
+        <li>Mente: +2</li>
+        <li>Espírito: 0</li>
+        <li>Carisma: -1</li>
+      </ul>
+      <br>
+      <p><span style="color:#ff00ff">Classe C: </span><span style="color:#00ff00">Faísca: </span>Único foco capaz de enxergar e viajar através do Breu, seu mantra purifica instantaneamente as sombras e conseguem se adaptar tanto a luz quanto a escuridão, conseguem afugentar sua Fobia com maior facilidade que os outros focos, recebem +3 nos dados dentro de suas mentes.<br>
+      Permite expelirem seu mantra através de lançadores a disparo (“armas de fogo”).</p>
+      <p><span style="color:#ff00ff">Classe B: </span></p>
+      <p><span style="color:#ff00ff">Classe A: </span></p>
+      <p><span style="color:#ff00ff">Classe S: </span></p><br>
+      <!-- FIM FOCO SURYA -->
 
+      <h2 style="color:#00ffff">- Foco Marcial:</h2> <!-- INICIO FOCO MARCIAL -->
+      <p style="color:#00ffff; font-weight: bold">Líder: <span style="color:#fff">Kauã Orlando K.O (SS)</span></p>
+        <p>“Seu corpo é uma arma, e nós o transformamos em um maestro da batalha. Una-se ao Foco Marcial, onde honra, destreza e força se entrelaçam para forjar guerreiros imbatíveis. Venha trilhar o caminho da maestria, onde cada movimento é uma dança mortal, cada golpe é uma sinfonia de poder, e cada vitória é uma conquista gloriosa. Mostre ao mundo a ressonância da sua coragem e seja aclamado como um verdadeiro artista da guerra.” - K.O</p>
+        <p style="color: #0000ff">“O Mantra segue os movimentos do lutador,  é por isso que até mesmo deuses ficam de joelhos” -Chiansyr</p>
+        <p>Ganha Perícia em Atletismo e escolha mais uma entre:</p>
+      <ul>
+        <li>Coragem (Mente/Corpo)</li>
+        <li>Intimidação (Carisma/Corpo)</li>
+        <li>Instinto (Corpo)</li>
+        <li>Acrobacia (Destreza)</li>
+        <li>Encorajar (Carisma)</li>
+      </ul><br>
+      <ul id="rosinha">
+        <li>Corpo: +3</li>
+        <li>Destreza: +3</li>
+        <li>Mente: 0</li>
+        <li>Espírito: -1</li>
+        <li>Carisma: -1</li>
+      </ul>
+      <br>
+      <p><span style="color:#ff00ff">Classe C: </span><span style="color:#00ff00">Chamas da Vida: </span>Quanto mais tempo em combate, maior é sua fome por conflitos, derrotar inimigos à altura torna-se prazeroso, sendo assim, para cada 4 pontos de vida faltando recebe <span style="color: red">+1</span> nos dados de acerto e para cada 8 faltando recebe <span style="color: red">+2</span> de dano.<br>
+      Permite expelirem seu mantra através de lançadores a disparo (“armas de fogo”).</p>
+      <p><span style="color:#ff00ff">Classe B: </span></p>
+      <p><span style="color:#ff00ff">Classe A: </span></p>
+      <p><span style="color:#ff00ff">Classe S: </span></p><br>
+      <!-- FIM FOCO MARCIAL -->
 
-        <!-- /FIM MANTRA -->
-        <!-- /FIM CAPITULO 2 -->
+      <h2 style="color:#ff0000">- Foco da Insanidade:</h2> <!-- INICIO FOCO DA INSANIDADE-->
+      <p style="color:#434343">Disponível em breve...</p>
+      <p style="color:#ff0000; font-weight: bold">Líder: <span style="color:#351c75">Seu Pior Pesadelo (???)</span></p>
+      <p>Esta arte corrompida é extremamente perigosa, remando sobre os mares da loucura aceitando qualquer punição para atingir o ápice do mantra, onde nenhuma mente é capaz de compreender. É necessário abdicar todo o seu controle de Polus para poder manifestar essa arte.
+      
+      <br>
+      <p><span style="color:#ff00ff">Classe C: </span><span style="color:#ff0000">Submissão Demoníaca: </span>Entrega sua alma para a Fobia, todos os seus feitiços despedaçam sua sanidade, mas afinal você não depende mais dela. Em níveis críticos seu maior medo se manifestará, torturando você em agonia porém te ajudando em combate.</p>
+      <p><span style="color:#ff00ff">Classe B: </span></p>
+      <p><span style="color:#ff00ff">Classe A: </span></p>
+      <p><span style="color:#ff00ff">Classe S: </span></p><br>
+      <!-- FIM FOCO DA INSANIDADE-->
+      <h2>4. Defina uma fobia.</h2>
+      <h2>5. Crie sua primeira habilidade C (Cap. 2 “Iniciação ao mantra”)</h2>
+      <h2>6. Ficha</h2>
+      <!-- FIM CAPÍTULO 3 -->
+    </div> <!-- /FIM CONTAINER -->
+  </section> <!-- /FIM CAPÍTULOS -->
 
-      </div> <!-- /FIM CONTAINER -->
-    </section> <!-- /FIM CAPÍTULOS -->
-    
-  </body>
+  <script src="/js/ytPlayer.js"></script>
+
+</body>
+
 </html>

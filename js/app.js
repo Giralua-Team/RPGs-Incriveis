@@ -1,57 +1,5 @@
+document.cookie = "a=b; expires=Wed, 01 Jan 2024 00:00:00 UTC; SameSite=None; Secure";
 
-/*
-// mudarCor.js
-document.addEventListener("DOMContentLoaded", function() {
-  // Crie um objeto de mapeamento entre palavras e cores
-  var palavrasEcores = {
-                  : '#9900ff',roxo5
-              : '#ff0000',1
-      'Shivers'         : '#434343',cinza escuro
-                : '#351c75',2
-      'Mantra'          : '#ffff00',amarelo3
-      : '#0000ff',azul4
-      'd20'             : '#ff0000',1
-      '14'              : '#ff0000',1
-                 : '#ff0000',1
-             : '#9900ff',5
-      'Biodúnyas'       : '#274e13',musgo
-      'Crisoldúnya'     : '#f1c232',amarelodesfocado
-              : '#ff0000',1
-               : '#9900ff',5
-      'Polus'           : '#ff9900',laranja
-      'Micardya'        : '#ffff00',3
-      'Lakrima'         : '#0000ff',4
-      'amada'           : '#ffff00',3
-               : '#9900ff',5
-                : '#351c75',2
-               : '#351c75',2 roxo escuro
-                 : '#ff0000',vermei
-            : '#ff0000',1
-             : '#ff0000',1
-                  : '#0000ff',
-                  : '#0000ff',
-                : '#0000ff',
-                : '#0000ff',azul
-            : '#ffff00',amarelo
-
-  };
-
-// Seleciona todos os elementos de texto no corpo da página
-var elementosDeTexto = document.querySelectorAll('*:not(script)');
-
-elementosDeTexto.forEach(function(elemento) {
-    // Itera sobre o objeto de mapeamento e substitui as palavras pelas cores
-    for (var palavra in palavrasEcores) {
-        if (palavrasEcores.hasOwnProperty(palavra)) {
-            var cor = palavrasEcores[palavra];
-            var palavraEscapada = palavra.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-            var regex = new RegExp(palavraEscapada, 'g');
-            elemento.innerHTML = elemento.innerHTML.replace(regex, '<span style="color:' + cor + ';">' + palavra + '</span>');
-        }
-    }
-    });
-});
-*/
 
 // mudarCor.js
 document.addEventListener("DOMContentLoaded", function() {
@@ -78,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 'Instinto (Corpo)',
                 'Acrobacia (Destreza)',
                 'Atletismo (Corpo)',
+                'Perícia',
             ],
             cor: '#ff00ff',
         },
@@ -86,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
         {
             palavras: 
             [
-                'Mantra',
+                'Mantra ',
                 'Micardya',
             ],
             cor: '#ffff00'
@@ -104,6 +53,14 @@ document.addEventListener("DOMContentLoaded", function() {
                 'Lakrima',
             ],
             cor: '#0000ff'
+        },
+
+        'azulbebe': {
+            palavras: 
+            [
+                'Humanos'
+            ],
+            cor: '#4a86e8'
         },
 
         'ciano': {
@@ -158,9 +115,39 @@ document.addEventListener("DOMContentLoaded", function() {
             palavras:
             [
                 'Polus',
+                'Classe Escolar',
             ],
             cor: '#ff9900',
-        }
+        },
+
+        'musgo':
+        {
+            palavras:
+            [
+                'Biodúnyas',
+            ],
+            cor: '#38761d',
+        },
+
+        'amarelodesfocado':
+        {
+            palavras:
+            [
+                'Crisoldúnyas',
+                'Crisoldúnya',
+            ],
+            cor: '#f1c232',
+        },
+
+        'cinza':
+        {
+            palavras:
+            [
+                'Shivers',
+                'Sevenie',
+            ],
+            cor: '#434343',
+        },
     };
 
     // Seleciona todos os elementos de texto no corpo da página
