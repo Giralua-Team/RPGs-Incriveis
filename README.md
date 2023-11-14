@@ -2,7 +2,7 @@
 
 Um site para projetos de rpg
 
-![Instagram do criador kk](https://www.instagram.com/ap0theosis._/)
+![Click me!](https://www.saladadeassuntos.com.br/wp-content/uploads/2010/08/Hommer1.gif)
 
 ## Estrutura do projeto
 A estrura básica do site aekk:
