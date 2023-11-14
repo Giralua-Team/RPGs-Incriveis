@@ -1,0 +1,180 @@
+/*===============================================================
+RESET ALL ELEMENTS
+=================================================================*/
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+
+/*================================================================
+LAYOUT   
+=================================================================*/
+html, body {
+  font-family: 'Comfortaa', sans-serif;
+  text-align: left;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+body {
+  background-color: #000;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+}
+
+/*================================================================
+ESTRUTURA DOS CONTEÚDOS
+=================================================================*/
+
+#titulo {
+  text-align: center;
+  margin: 30px 0 20px 0px;
+  
+}
+
+#cabecalho {
+  margin: 20px 0 10px 0;
+}
+
+#cabecalho a {
+  color: #666666;
+}
+
+#cabecalho h3 {
+  color: #666666;
+  margin-top: 20px;
+}
+
+#cabecalho a:hover {
+  color: #999999;
+}
+
+#cabecalho ul {
+  list-style-type: none;
+  margin-left: 20%;
+  font-size: 0.7em;
+}
+
+#cabecalho li::before {
+  content: ">";
+}
+
+#titulo h1 {
+  color: #fff;
+  font-size: 4em; 
+}
+
+#main {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.quote {
+  margin-top: 30px;
+  color: #1155cc;
+}
+
+#introducao h1 {
+  color: #0000ff;
+  margin-top: 40px;
+}
+
+#capitulos h1 {
+  color: #0000ff;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#capitulos p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#sanidade ul {
+  color: #fff;
+  
+}
+
+#sanidade li {
+  font-weight: 100 !important;
+  color:#fff;
+  margin-bottom: 20px;
+}
+
+#laranjinha li{
+  font-weight:100 !important;
+  color:#ff9900;
+}
+
+#vermelhinho li{
+  font-weight:100 !important;
+  color:#ff0000;
+}
+
+ol p {
+  text-indent: 10px;
+}
+/*================================================================
+TIPOGRAFIA
+=================================================================*/
+
+p {
+  font-size: 1.8em;
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  /*text-indent: 40px;*/
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 3em;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 2.2em;
+}
+
+ol {
+  list-style-type: none; /* Remove a numeração padrão */
+  counter-reset: item; /* Reinicia o contador para a lista */
+  margin: 0px;
+  padding: 0px;
+}
+
+ol li {
+  display: flex;
+  align-items: top;
+  counter-increment: item; /* Incrementa o contador para cada item da lista */
+
+  /* Estiliza o número da lista */
+  &::before {
+      content: counter(item) ".";
+      font-size: 1.8em;
+      font-weight: bold;
+      color: #fff;
+  }
+}
+
+ul {
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+
+ul li {
+  font-size: 1.8em;
+  font-weight: bold;
+  
+}
