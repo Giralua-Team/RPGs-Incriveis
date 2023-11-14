@@ -2,7 +2,7 @@
 
 Um site para projetos de rpg
 
-![Protótipo do site de rpgs]
+![Instagram do criador kk](https://www.instagram.com/ap0theosis._/)
 
 ## Estrutura do projeto
 A estrura básica do site aekk:
