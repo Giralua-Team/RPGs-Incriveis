@@ -9,11 +9,11 @@ A estrura básica do site aekk:
 
 ```
 ├── images
-│   ├── imagens do projeto kk
-├── js    -> short, feature-specific sample apps
+│   ├── imagens do projeto
+├── js 
 │   ├── app.js
 ├── css
-│    ├── app.css
+│   ├── app.css
 ├── index.html
 ├── LICENSE
 ├── README.md
